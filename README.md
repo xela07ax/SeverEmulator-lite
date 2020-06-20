@@ -4,7 +4,7 @@
 #### Требования:
 - Node Js
 
-Установка и запуск
+#### Установка и запуск:
 ```bash
 npm install
 node pageEmulApp.js badPage1
