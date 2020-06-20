@@ -1,0 +1,14 @@
+{
+  "name": "ufosemulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pageEmulApp.js",
+  "scripts": {
+    "test": "badPage1"
+  },
+  "author": "Erdyakov Aleksey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

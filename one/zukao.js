@@ -1,0 +1,7 @@
+{"rs":[["outer",[{$u:'zkau_254'},[
+    ['zul.wgt.Div','zkau_254',{z$is:true,width:'965px',zclass:'z-iteratorToolbar',context:'uuid(zkau_258)'},{},[
+        ['zul.box.Hlayout','zkau_255',{},{},[
+            ['zul.wgt.Button','zkau_256',{id:'add',$onClick:true,sclass:'toolbarButton toolbarButtonMain imageButton add',tooltiptext:'\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043D\u043E\u0432\u0443\u044E \u0441\u0442\u0440\u043E\u043A\u0443',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/16/table_add.png',autodisable:'self'},{},[],'trendy'],
+            ['zul.wgt.Button','zkau_257',{id:'delete',$onClick:true,sclass:'toolbarButton toolbarButtonMain imageButton delete',tooltiptext:'\u0423\u0434\u0430\u043B\u0438\u0442\u044C \u0441\u0442\u0440\u043E\u043A\u0443',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/16/table_delete.png',autodisable:'self'},{},[],'trendy']]],
+        ['zul.menu.Menupopup','zkau_258',{visible:false},{},[
+            ['zul.menu.Menuitem','zkau_259',{$onClick:true,label:'\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430'},{},[]]]]]]]]],["script",["updateTabStickies(jq(zk.Widget.$(\"$.center\")));"]],["script",["updateTabStickies(jq(zk.Widget.$(\"$.center\")));"]],["script",["updateTabStickies(jq(zk.Widget.$(\"$.center\")));"]],["onLoadUseIndustrialCalendar",[true]]],"rid":1}

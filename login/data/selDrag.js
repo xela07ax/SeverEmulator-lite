@@ -1,0 +1,1 @@
+zk.afterLoad("zss",function(){var a={};zk.override(zss.SelDrag.prototype,a,{doMousemove:function(b){}})});

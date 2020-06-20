@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+
+<script type="text/javascript" src="/zkau/web/30c5331e/js/zk.wpd" charset="UTF-8"></script>
+<script type="text/javascript" src="/zkau/web/30c5331e/js/zul.lang.wpd" charset="UTF-8"></script>
+<script type="text/javascript" src="/zkau/web/30c5331e/js/zkbind.wpd" charset="UTF-8"></script>
+<script type="text/javascript" src="/zkau/web/30c5331e/js/otr.wpd" charset="UTF-8"></script>
+<script type="text/javascript" src="/zkau/web/30c5331e/js/zssex.wpd" charset="UTF-8"></script>
+<script type="text/javascript" src="/versioned/preview-2.54.0.140/js/selDrag.js" charset="UTF-8"></script>
+<!-- ZK 8.5.2.1 EE 2018082816 -->
+
+<link rel="stylesheet" type="text/css" href="/zkau/web/30c5331e/_zkiju-city/zul/css/zk.wcs"/>
+<link rel="stylesheet" type="text/css" href="/zkau/web/30c5331e/css/default.css.dsp"/>
+<link rel="stylesheet" type="text/css" href="/zkau/web/30c5331e/css/jquery.gritter.css.dsp"/>
+<link rel="stylesheet" type="text/css" href="/zkau/web/30c5331e/css/Actionbar.city.css.dsp"/>
+<link rel="stylesheet" type="text/css" href="/static/resources/forms/global/applied.css"/>
+<link rel="stylesheet" type="text/css" href="/zkau/web/30c5331e/city/override.city.css.dsp"/>
+</head>
+<body>
+<div id="zkau_page" class="z-temp"><div id="zk_proc" class="z-loading"><div class="z-loading-indicator"><span class="z-loading-icon"></span>Обработка запроса...</div></div></div>
+<script id="zkau_0" type="text/javascript" src="/versioned/1.9.3/libraries-js.dsp">
+</script>
+
+<script id="zkau_1" type="text/javascript" src="/versioned/preview-2.54.0.140/zk-full-js.dsp">
+</script>
+
+<script class="z-runonce" type="text/javascript">
+zk.appName='УФОС';zk.themeName='city';zkmx(
+[0,'zkau_page',{dt:'Desktop_257',cu:'',uu:'\x2Fzkau',ru:'\x2FformPreview.zul'},{},[
+['zul.utl.Script','zkau_0',{},{},[]],
+['zul.utl.Script','zkau_1',{},{},[]],
+['zul.wnd.Window','zkau_2',{$$onMaximize:false,$$0onMaximize:true,$$onZIndex:false,$$0onZIndex:true,$$onMove:false,$$0onMove:true,$onClose:true,$$onSize:false,$$0onSize:true,$$onMinimize:false,$$0onMinimize:true,$$onOpen:false,$ZKAUS$:true,sclass:'dialog-edit',prolog:' ',maximized:true,maximizable:true,closable:true,sizable:true,position:'left,top',_nativebar:true},{},[
+['zul.wgt.Caption','zkau_5',{visible:false},{},[]],
+['zul.utl.Style','zkau_3',{id:'scrollerStyle',visible:false},{},[]],
+['zul.utl.Script','zkau_4',{},{},[]],
+['zul.box.Vlayout','zkau_6',{height:'98%',sclass:'doc-edit-frame',prolog:' '},{},[
+['zul.utl.Style','zkau_7',{id:'frameStyle',visible:false,content:'.blueTextHighlight {color: #12529c;}.blueTextHighlight.z-combobox .z-combobox-input,.blueTextHighlight.z-spinner .z-spinner-input,.blueTextHighlight.z-datebox .z-datebox-input {color: #12529c;}.blueTextLightGrayBackgroundHighlight {background: none !important;background-color:#ebebeb !important;color: #12529c;}.blueTextLightGrayBackgroundHighlight.z-combobox .z-combobox-input,.blueTextLightGrayBackgroundHighlight.z-combobox .z-combobox-button,.blueTextLightGrayBackgroundHighlight.z-combobox .z-combobox-icon,.blueTextLightGrayBackgroundHighlight.z-combobox .z-icon-caret-down,.blueTextLightGrayBackgroundHighlight.z-spinner .z-spinner-input,.blueTextLightGrayBackgroundHighlight.z-spinner .z-spinner-button,.blueTextLightGrayBackgroundHighlight.z-spinner .z-spinner-icon,.blueTextLightGrayBackgroundHighlight.z-spinner .z-spinner-up,.blueTextLightGrayBackgroundHighlight.z-spinner .z-spinner-down,.blueTextLightGrayBackgroundHighlight.z-datebox .z-datebox-input {background: none !important;background-color:#ebebeb !important;}.blueTextLightGrayBackgroundHighlight.z-combobox .z-combobox-input,.blueTextLightGrayBackgroundHighlight.z-spinner .z-spinner-input,.blueTextLightGrayBackgroundHighlight.z-datebox .z-datebox-input {color: #12529c;}.blackTextLightGreenBackgroundHighlight {background: none !important;background-color:#CCFFCC !important;color: #000000;}.blackTextLightGreenBackgroundHighlight.z-combobox .z-combobox-input,.blackTextLightGreenBackgroundHighlight.z-combobox .z-combobox-button,.blackTextLightGreenBackgroundHighlight.z-combobox .z-combobox-icon,.blackTextLightGreenBackgroundHighlight.z-combobox .z-icon-caret-down,.blackTextLightGreenBackgroundHighlight.z-spinner .z-spinner-input,.blackTextLightGreenBackgroundHighlight.z-spinner .z-spinner-button,.blackTextLightGreenBackgroundHighlight.z-spinner .z-spinner-icon,.blackTextLightGreenBackgroundHighlight.z-spinner .z-spinner-up,.blackTextLightGreenBackgroundHighlight.z-spinner .z-spinner-down,.blackTextLightGreenBackgroundHighlight.z-datebox .z-datebox-input {background: none !important;background-color:#CCFFCC !important;}.blackTextLightGreenBackgroundHighlight.z-combobox .z-combobox-input,.blackTextLightGreenBackgroundHighlight.z-spinner .z-spinner-input,.blackTextLightGreenBackgroundHighlight.z-datebox .z-datebox-input {color: #000000;}.blueTextGrayBackgroundHighlight {background: none !important;background-color:#d7d7d7 !important;color: #12529c;}.blueTextGrayBackgroundHighlight.z-combobox .z-combobox-input,.blueTextGrayBackgroundHighlight.z-combobox .z-combobox-button,.blueTextGrayBackgroundHighlight.z-combobox .z-combobox-icon,.blueTextGrayBackgroundHighlight.z-combobox .z-icon-caret-down,.blueTextGrayBackgroundHighlight.z-spinner .z-spinner-input,.blueTextGrayBackgroundHighlight.z-spinner .z-spinner-button,.blueTextGrayBackgroundHighlight.z-spinner .z-spinner-icon,.blueTextGrayBackgroundHighlight.z-spinner .z-spinner-up,.blueTextGrayBackgroundHighlight.z-spinner .z-spinner-down,.blueTextGrayBackgroundHighlight.z-datebox .z-datebox-input {background: none !important;background-color:#d7d7d7 !important;}.blueTextGrayBackgroundHighlight.z-combobox .z-combobox-input,.blueTextGrayBackgroundHighlight.z-spinner .z-spinner-input,.blueTextGrayBackgroundHighlight.z-datebox .z-datebox-input {color: #12529c;}.redTextHighlight {color: #d43139;}.redTextHighlight.z-combobox .z-combobox-input,.redTextHighlight.z-spinner .z-spinner-input,.redTextHighlight.z-datebox .z-datebox-input {color: #d43139;}.redTextLightGrayBackgroundHighlight {background: none !important;background-color:#ebebeb !important;color: #d43139;}.redTextLightGrayBackgroundHighlight.z-combobox .z-combobox-input,.redTextLightGrayBackgroundHighlight.z-combobox .z-combobox-button,.redTextLightGrayBackgroundHighlight.z-combobox .z-combobox-icon,.redTextLightGrayBackgroundHighlight.z-combobox .z-icon-caret-down,.redTextLightGrayBackgroundHighlight.z-spinner .z-spinner-input,.redTextLightGrayBackgroundHighlight.z-spinner .z-spinner-button,.redTextLightGrayBackgroundHighlight.z-spinner .z-spinner-icon,.redTextLightGrayBackgroundHighlight.z-spinner .z-spinner-up,.redTextLightGrayBackgroundHighlight.z-spinner .z-spinner-down,.redTextLightGrayBackgroundHighlight.z-datebox .z-datebox-input {background: none !important;background-color:#ebebeb !important;}.redTextLightGrayBackgroundHighlight.z-combobox .z-combobox-input,.redTextLightGrayBackgroundHighlight.z-spinner .z-spinner-input,.redTextLightGrayBackgroundHighlight.z-datebox .z-datebox-input {color: #d43139;}.redTextGrayBackgroundHighlight {background: none !important;background-color:#d7d7d7 !important;color: #d43139;}.redTextGrayBackgroundHighlight.z-combobox .z-combobox-input,.redTextGrayBackgroundHighlight.z-combobox .z-combobox-button,.redTextGrayBackgroundHighlight.z-combobox .z-combobox-icon,.redTextGrayBackgroundHighlight.z-combobox .z-icon-caret-down,.redTextGrayBackgroundHighlight.z-spinner .z-spinner-input,.redTextGrayBackgroundHighlight.z-spinner .z-spinner-button,.redTextGrayBackgroundHighlight.z-spinner .z-spinner-icon,.redTextGrayBackgroundHighlight.z-spinner .z-spinner-up,.redTextGrayBackgroundHighlight.z-spinner .z-spinner-down,.redTextGrayBackgroundHighlight.z-datebox .z-datebox-input {background: none !important;background-color:#d7d7d7 !important;}.redTextGrayBackgroundHighlight.z-combobox .z-combobox-input,.redTextGrayBackgroundHighlight.z-spinner .z-spinner-input,.redTextGrayBackgroundHighlight.z-datebox .z-datebox-input {color: #d43139;}.greenTextHighlight {color: #23700d;}.greenTextHighlight.z-combobox .z-combobox-input,.greenTextHighlight.z-spinner .z-spinner-input,.greenTextHighlight.z-datebox .z-datebox-input {color: #23700d;}.greenTextLightGrayBackgroundHighlight {background: none !important;background-color:#ebebeb !important;color: #23700d;}.greenTextLightGrayBackgroundHighlight.z-combobox .z-combobox-input,.greenTextLightGrayBackgroundHighlight.z-combobox .z-combobox-button,.greenTextLightGrayBackgroundHighlight.z-combobox .z-combobox-icon,.greenTextLightGrayBackgroundHighlight.z-combobox .z-icon-caret-down,.greenTextLightGrayBackgroundHighlight.z-spinner .z-spinner-input,.greenTextLightGrayBackgroundHighlight.z-spinner .z-spinner-button,.greenTextLightGrayBackgroundHighlight.z-spinner .z-spinner-icon,.greenTextLightGrayBackgroundHighlight.z-spinner .z-spinner-up,.greenTextLightGrayBackgroundHighlight.z-spinner .z-spinner-down,.greenTextLightGrayBackgroundHighlight.z-datebox .z-datebox-input {background: none !important;background-color:#ebebeb !important;}.greenTextLightGrayBackgroundHighlight.z-combobox .z-combobox-input,.greenTextLightGrayBackgroundHighlight.z-spinner .z-spinner-input,.greenTextLightGrayBackgroundHighlight.z-datebox .z-datebox-input {color: #23700d;}.greenTextGrayBackgroundHighlight {background: none !important;background-color:#d7d7d7 !important;color: #23700d;}.greenTextGrayBackgroundHighlight.z-combobox .z-combobox-input,.greenTextGrayBackgroundHighlight.z-combobox .z-combobox-button,.greenTextGrayBackgroundHighlight.z-combobox .z-combobox-icon,.greenTextGrayBackgroundHighlight.z-combobox .z-icon-caret-down,.greenTextGrayBackgroundHighlight.z-spinner .z-spinner-input,.greenTextGrayBackgroundHighlight.z-spinner .z-spinner-button,.greenTextGrayBackgroundHighlight.z-spinner .z-spinner-icon,.greenTextGrayBackgroundHighlight.z-spinner .z-spinner-up,.greenTextGrayBackgroundHighlight.z-spinner .z-spinner-down,.greenTextGrayBackgroundHighlight.z-datebox .z-datebox-input {background: none !important;background-color:#d7d7d7 !important;}.greenTextGrayBackgroundHighlight.z-combobox .z-combobox-input,.greenTextGrayBackgroundHighlight.z-spinner .z-spinner-input,.greenTextGrayBackgroundHighlight.z-datebox .z-datebox-input {color: #23700d;}.lightGrayBackgroundHighlight {background: none !important;background-color:#ebebeb !important;}.lightGrayBackgroundHighlight.z-combobox .z-combobox-input,.lightGrayBackgroundHighlight.z-combobox .z-combobox-button,.lightGrayBackgroundHighlight.z-combobox .z-combobox-icon,.lightGrayBackgroundHighlight.z-combobox .z-icon-caret-down,.lightGrayBackgroundHighlight.z-spinner .z-spinner-input,.lightGrayBackgroundHighlight.z-spinner .z-spinner-button,.lightGrayBackgroundHighlight.z-spinner .z-spinner-icon,.lightGrayBackgroundHighlight.z-spinner .z-spinner-up,.lightGrayBackgroundHighlight.z-spinner .z-spinner-down,.lightGrayBackgroundHighlight.z-datebox .z-datebox-input {background: none !important;background-color:#ebebeb !important;}.grayBackgroundHighlight {background: none !important;background-color:#d7d7d7 !important;}.grayBackgroundHighlight.z-combobox .z-combobox-input,.grayBackgroundHighlight.z-combobox .z-combobox-button,.grayBackgroundHighlight.z-combobox .z-combobox-icon,.grayBackgroundHighlight.z-combobox .z-icon-caret-down,.grayBackgroundHighlight.z-spinner .z-spinner-input,.grayBackgroundHighlight.z-spinner .z-spinner-button,.grayBackgroundHighlight.z-spinner .z-spinner-icon,.grayBackgroundHighlight.z-spinner .z-spinner-up,.grayBackgroundHighlight.z-spinner .z-spinner-down,.grayBackgroundHighlight.z-datebox .z-datebox-input {background: none !important;background-color:#d7d7d7 !important;}.greenBackgroundHighlight {background: none !important;background-color:#529c12 !important;}.greenBackgroundHighlight.z-combobox .z-combobox-input,.greenBackgroundHighlight.z-combobox .z-combobox-button,.greenBackgroundHighlight.z-combobox .z-combobox-icon,.greenBackgroundHighlight.z-combobox .z-icon-caret-down,.greenBackgroundHighlight.z-spinner .z-spinner-input,.greenBackgroundHighlight.z-spinner .z-spinner-button,.greenBackgroundHighlight.z-spinner .z-spinner-icon,.greenBackgroundHighlight.z-spinner .z-spinner-up,.greenBackgroundHighlight.z-spinner .z-spinner-down,.greenBackgroundHighlight.z-datebox .z-datebox-input {background: none !important;background-color:#529c12 !important;}.lightBlueBackgroundHighlight {background: none !important;background-color:#e5f7fd !important;}.lightBlueBackgroundHighlight.z-combobox .z-combobox-input,.lightBlueBackgroundHighlight.z-combobox .z-combobox-button,.lightBlueBackgroundHighlight.z-combobox .z-combobox-icon,.lightBlueBackgroundHighlight.z-combobox .z-icon-caret-down,.lightBlueBackgroundHighlight.z-spinner .z-spinner-input,.lightBlueBackgroundHighlight.z-spinner .z-spinner-button,.lightBlueBackgroundHighlight.z-spinner .z-spinner-icon,.lightBlueBackgroundHighlight.z-spinner .z-spinner-up,.lightBlueBackgroundHighlight.z-spinner .z-spinner-down,.lightBlueBackgroundHighlight.z-datebox .z-datebox-input {background: none !important;background-color:#e5f7fd !important;}.chf-addedHighlight {background: none !important;background-color:#b3ffda !important;}.chf-addedHighlight.z-combobox .z-combobox-input,.chf-addedHighlight.z-combobox .z-combobox-button,.chf-addedHighlight.z-combobox .z-combobox-icon,.chf-addedHighlight.z-combobox .z-icon-caret-down,.chf-addedHighlight.z-spinner .z-spinner-input,.chf-addedHighlight.z-spinner .z-spinner-button,.chf-addedHighlight.z-spinner .z-spinner-icon,.chf-addedHighlight.z-spinner .z-spinner-up,.chf-addedHighlight.z-spinner .z-spinner-down,.chf-addedHighlight.z-datebox .z-datebox-input {background: none !important;background-color:#b3ffda !important;}.chf-changedHighlight {background: none !important;background-color:#a3e5ff !important;}.chf-changedHighlight.z-combobox .z-combobox-input,.chf-changedHighlight.z-combobox .z-combobox-button,.chf-changedHighlight.z-combobox .z-combobox-icon,.chf-changedHighlight.z-combobox .z-icon-caret-down,.chf-changedHighlight.z-spinner .z-spinner-input,.chf-changedHighlight.z-spinner .z-spinner-button,.chf-changedHighlight.z-spinner .z-spinner-icon,.chf-changedHighlight.z-spinner .z-spinner-up,.chf-changedHighlight.z-spinner .z-spinner-down,.chf-changedHighlight.z-datebox .z-datebox-input {background: none !important;background-color:#a3e5ff !important;}.chf-deletedHighlight {background: none !important;background-color:#fdffab !important;}.chf-deletedHighlight.z-combobox .z-combobox-input,.chf-deletedHighlight.z-combobox .z-combobox-button,.chf-deletedHighlight.z-combobox .z-combobox-icon,.chf-deletedHighlight.z-combobox .z-icon-caret-down,.chf-deletedHighlight.z-spinner .z-spinner-input,.chf-deletedHighlight.z-spinner .z-spinner-button,.chf-deletedHighlight.z-spinner .z-spinner-icon,.chf-deletedHighlight.z-spinner .z-spinner-up,.chf-deletedHighlight.z-spinner .z-spinner-down,.chf-deletedHighlight.z-datebox .z-datebox-input {background: none !important;background-color:#fdffab !important;}.erroneousFieldsHighlight {background: none !important;background-color:#FF5050 !important;}.erroneousFieldsHighlight.z-combobox .z-combobox-input,.erroneousFieldsHighlight.z-combobox .z-combobox-button,.erroneousFieldsHighlight.z-combobox .z-combobox-icon,.erroneousFieldsHighlight.z-combobox .z-icon-caret-down,.erroneousFieldsHighlight.z-spinner .z-spinner-input,.erroneousFieldsHighlight.z-spinner .z-spinner-button,.erroneousFieldsHighlight.z-spinner .z-spinner-icon,.erroneousFieldsHighlight.z-spinner .z-spinner-up,.erroneousFieldsHighlight.z-spinner .z-spinner-down,.erroneousFieldsHighlight.z-datebox .z-datebox-input {background: none !important;background-color:#FF5050 !important;}'},{},[]],
+['zul.utl.Script','zkau_8',{visible:false},{},[]],
+['zul.utl.Script','zkau_9',{visible:false},{},[]],
+['zul.utl.Script','zkau_10',{visible:false,content:function(){
+
+			// Этот скрипт выполняется после того как поднимаются все виджеты
+			var popup = zk.Widget.$("$.toTop");
+			var toolBatHolder = zk.Widget.$("$.toolBarHolder");
+			var docviewpane = zk.Widget.$("$.docviewpane");
+			if (docviewpane && toolBatHolder && popup) {
+				jq(zk.Widget.$("$.docviewpane").$n()).scroll(function () {
+					if (!popup.isOpen() && docviewpane.getScrollTop() > 0) {
+						popup.open(toolBatHolder, jq(toolBatHolder.$n()).offset(), "after_end", null);
+					} else if (popup.isOpen() && docviewpane.getScrollTop() == 0) {
+						popup.close(null);
+					}
+				});
+				// Если не убрать этот сушатель то popup пропадает при клике на любой другой компонент
+				zWatch.unlisten({onFloatUp: popup});
+			}
+			var expandAllBtn = zk.Widget.$("$expandAll");
+			var collapseAllBtn = zk.Widget.$("$collapseAll");
+			//изменить доступность кнопок в соответствии с состоянием секций первой вкладки таба
+			updateButtons(expandAllBtn, collapseAllBtn);
+			var tabs = jq(".dialog-edit @tabbox @tab");
+			if (tabs.length == 0) {
+				return;
+			}
+			jq(".dialog-edit @tabbox @tab").each(function () {
+				zk.Widget.$(this).listen({
+					onClick: function (evt) {
+						//по щелчку на заголовке таба изменить доступность кнопок в соответствии с состоянием секций активной вкладки
+						updateButtons(expandAllBtn, collapseAllBtn);
+						fixCollapsedWidths();
+					}
+				});
+			});
+			
+		
+}},{},[]],
+['zul.utl.Script','zkau_11',{visible:false,content:function(){
+
+			
+				var center = jq(zk.Widget.$("$.center"));
+				setTabboxMaxHeight(center);
+				updateTabStickies(center);
+			
+		
+}},{},[]],
+['zul.box.Box','zkau_12',{id:'.toolBarHolder',hflex:'1',sclass:'docInfoDiv',spacing:'0px',pack:'stretch'},{},[
+['zul.box.Box','zkau_13',{height:'32px',hflex:'1',align:'center'},{},[
+['zul.wgt.Label','zkau_14',{id:'docInfo',hflex:'1',sclass:'docInfoLabel'},{},[]],
+['zul.box.Box','zkau_15',{sclass:'expand-collapse-box',align:'center',pack:'end'},{},[
+['zul.box.Hlayout','zkau_16',{id:'expandCollapseButtonsPane'},{},[
+['zul.wgt.Button','zkau_17',{id:'expandAll',listeners:{onClick:function(event){
+jq('.dialog-edit @groupbox').each(function () {if (zk.Widget.$(this.id).isRealVisible({dom:true})) {zk.Widget.$(this.id).setOpen(true)}})
+}},sclass:'imageButton',tooltiptext:'\u0420\u0430\u0437\u0432\u0435\u0440\u043D\u0443\u0442\u044C \u0441\u0435\u043A\u0446\u0438\u0438',image:'/zkau/web/30c5331e/city/icons/16/expand_all.png',autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_18',{id:'collapseAll',listeners:{onClick:function(event){
+jq('.dialog-edit @groupbox').each(function () {if (zk.Widget.$(this.id).isRealVisible({dom:true})) {zk.Widget.$(this.id).setOpen(false)}})
+}},sclass:'imageButton',tooltiptext:'\u0421\u0432\u0435\u0440\u043D\u0443\u0442\u044C \u0441\u0435\u043A\u0446\u0438\u0438',image:'/zkau/web/30c5331e/city/icons/16/collapse_all.png',autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Separator','zkau_19',{height:'23px',sclass:'expand-collapse-separator',orient:'vertical',bar:true},{},[]]]],
+['zul.box.Box','zkau_20',{sclass:'docStateBox',align:'center',pack:'end'},{},[
+['zul.wgt.Div','zkau_21',{sclass:'docStateIcon'},{},[]],
+['zul.wgt.Label','zkau_22',{id:'docStateLabel',sclass:'docStateLabel'},{},[]]],'horizontal']],'horizontal']],'horizontal'],
+['zul.box.Box','zkau_23',{id:'.toolBar',z$is:true,zclass:'z-toolbar',context:'uuid(zkau_40)'},{},[
+['zul.box.Box','zkau_24',{hflex:'1',sclass:'toolbarLeftBox'},{},[
+['zul.wgt.Button','zkau_29',{id:'newDoc',$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton newDoc',tooltiptext:'\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u043D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (Alt+N)',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/document_new.png',autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_30',{id:'copyDoc',$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton copyDoc',tooltiptext:'\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u043A\u043E\u043F\u0438\u044E \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430 (Alt+C)',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/copy.png',autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_31',{id:'chooseParent',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton chooseParent',tooltiptext:'\u0412\u044B\u0431\u0440\u0430\u0442\u044C \u0440\u043E\u0434\u0438\u0442\u0435\u043B\u044C\u0441\u043A\u0438\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/copy_field.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Separator','zkau_32',{sclass:'toolbar-separator',orient:'vertical'},{},[]],
+['zul.wgt.Button','zkau_33',{id:'checkDoc',$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton checkDoc',tooltiptext:'\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (Alt+Q)',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/document_check.png',autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_34',{id:'printDoc',$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton printDoc',tooltiptext:'\u041F\u0435\u0447\u0430\u0442\u044C (Alt+P)',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/print.png',autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Separator','zkau_35',{sclass:'toolbar-separator',orient:'vertical'},{},[]]],'horizontal'],
+['zul.box.Box','zkau_25',{z$is:true,sclass:'toolbarRightBox',pack:'end'},{},[
+['zul.wgt.Button','zkau_36',{id:'docInfo',$onClick:true,sclass:'toolbarButton toolbarButtonMain imageButton docInfo',tooltiptext:'\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F \u043E \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0435',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/16/info.png',autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_37',{id:'saveDoc',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain imageButton saveDoc',tooltiptext:'\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F \u0438 \u0437\u0430\u043A\u0440\u044B\u0442\u044C \u043E\u043A\u043D\u043E (Alt+S)',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/16/save.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_38',{id:'applyDoc',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain imageButton applyDoc',tooltiptext:'\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F (Alt+A)',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/16/apply_changes.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_39',{id:'close',$onClick:true,sclass:'toolbarButton toolbarButtonMain imageButton close',tooltiptext:'\u0417\u0430\u043A\u0440\u044B\u0442\u044C \u043E\u043A\u043D\u043E',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/16/exit.png',autodisable:'self'},{},[],'trendy']],'horizontal'],
+['zul.menu.Menupopup','zkau_40',{visible:false,$$onOpen:false},{},[
+['zul.menu.Menuitem','zkau_41',{$$onCheck:false,$onClick:true,label:'\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430'},{},[]]]]],'horizontal'],
+['zul.wgt.Popup','zkau_26',{id:'.toTop',visible:false,$$onOpen:false,width:'75px',zclass:'back-to-top'},{},[
+['zul.wgt.Button','zkau_27',{listeners:{onClick:function(event){
+ zk.Widget.$('$.docviewpane').setScrollTop(0)
+}},prolog:' ',label:'\u041D\u0430\u0432\u0435\u0440\u0445',autodisable:'self'},{},[],'trendy']]]],'vertical'],
+['zul.wgt.Div','zkau_28',{id:'.center',vflex:'100',sclass:'doc-edit-frame-center'},{},[
+['zul.wgt.Div','zkau_42',{id:'.docviewpane',$onCtrlKey:true,vflex:'100',hflex:'100',sclass:'doc-view-pane',ctrlKeys:'@N@C@Q@P@S@A^A'},{},[
+['zul.wgt.Div','zkau_43',{vflex:'100',hflex:'100',sclass:'doc-content-view doc_scale_default optional-layout'},{},[
+['zul.wgt.Div','zkau_44',{sclass:'panel'},{},[
+['zkmax.layout.Tablelayout','zkau_45',{height:'250px',sclass:'table-layout panel-layout-component'},{},[
+['zkmax.layout.Tablechildren','zkau_46',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_47',{domExtraAttrs:{'_x':'0'
+,'_y':'0'
+},width:'1050px',sclass:'panel-cell-div'},{},[
+['zul.tab.Tabbox','zkau_48',{width:'1050px',sclass:'tabbed-pane',_nativebar:true},{},[
+['zul.tab.Tabs','zkau_49',{z$is:true},{},[
+['zul.tab.Tab','zkau_50',{id:'0',$$onSelect:false,$onSelect:true,$onClose:true,label:'\u041E\u0431\u0449\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F',selected:true},{},[]],
+['zul.tab.Tab','zkau_51',{id:'1',$onSelect:true,$onClose:true,label:'\u0422\u0430\u0431\u043B\u0438\u0447\u043D\u0430\u044F \u0447\u0430\u0441\u0442\u044C \u0411\u0443\u0445\u0433\u0430\u043B\u0442\u0435\u0440\u0441\u043A\u043E\u0439 \u0441\u043F\u0440\u0430\u0432\u043A\u0438 \u0444. 0504833'},{},[]],
+['zul.tab.Tab','zkau_52',{id:'2',$onSelect:true,$onClose:true,label:'\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F'},{},[]],
+['zul.tab.Tab','zkau_53',{id:'3',$onSelect:true,$onClose:true,label:'\u0412\u043B\u043E\u0436\u0435\u043D\u0438\u044F'},{},[]],
+['zul.tab.Tab','zkau_54',{id:'4',$onSelect:true,$onClose:true,label:'\u041F\u043E\u0434\u043F\u0438\u0441\u0438'},{},[]]]],
+['zul.tab.Tabpanels','zkau_55',{sclass:'tab-panels'},{},[
+['zul.tab.Tabpanel','zkau_56',{sclass:'tab-panel'},{},[
+['zul.wgt.Div','zkau_57',{sclass:'panel'},{},[
+['zkmax.layout.Tablelayout','zkau_58',{sclass:'table-layout panel-layout-component',columns:4},{},[
+['zkmax.layout.Tablechildren','zkau_59',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_60',{domExtraAttrs:{'_x':'0'
+,'_y':'0'
+},width:'180px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_61',{id:'lbl_doc_spd_typedoc',domExtraAttrs:{'name':'lbl_doc_spd_typedoc'
+},width:'180px',value:'\u0422\u0438\u043F \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_62',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_63',{domExtraAttrs:{'_x':'1'
+,'_y':'0'
+},width:'200px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_64',{id:'tf_doc_spd_typedoc',$$onChange:false,$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$onError:false,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'200px',name:'tf_doc_spd_typedoc',maxlength:3,cols:3},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_65',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_66',{domExtraAttrs:{'_x':'2'
+,'_y':'0'
+},width:'250px',sclass:'panel-cell-div htar vm'},{},[
+['zul.wgt.Label','zkau_67',{id:'lbl_docstate_name',domExtraAttrs:{'name':'lbl_docstate_name'
+},width:'250px',value:'\u0421\u0442\u0430\u0442\u0443\u0441'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_68',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_69',{domExtraAttrs:{'_x':'3'
+,'_y':'0'
+},width:'200px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_70',{id:'tf_docstate_name',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'200px',readonly:true,name:'tf_docstate_name',maxlength:50,cols:30},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_71',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_72',{domExtraAttrs:{'_x':'0'
+,'_y':'1'
+},width:'180px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_73',{id:'lbl_doc_spd_accstatenum',domExtraAttrs:{'name':'lbl_doc_spd_accstatenum'
+},width:'180px',value:'\u041D\u043E\u043C\u0435\u0440 \u0411\u0443\u0445\u0433\u0430\u043B\u0442\u0435\u0440\u0441\u043A\u043E\u0439 \u0441\u043F\u0440\u0430\u0432\u043A\u0438'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_74',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_75',{domExtraAttrs:{'_x':'1'
+,'_y':'1'
+},width:'200px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_76',{id:'tf_doc_spd_accstatenum',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'200px',readonly:true,name:'tf_doc_spd_accstatenum',maxlength:50,cols:50},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_77',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_78',{domExtraAttrs:{'_x':'2'
+,'_y':'1'
+},width:'250px',sclass:'panel-cell-div htar vm'},{},[
+['zul.wgt.Label','zkau_79',{id:'lbl_doc_inf_creationdate',domExtraAttrs:{'name':'lbl_doc_inf_creationdate'
+},width:'250px',value:'\u0414\u0430\u0442\u0430 \u0411\u0443\u0445\u0433\u0430\u043B\u0442\u0435\u0440\u0441\u043A\u043E\u0439 \u0441\u043F\u0440\u0430\u0432\u043A\u0438'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_80',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_81',{domExtraAttrs:{'_x':'3'
+,'_y':'1'
+},width:'200px',sclass:'panel-cell-div'},{},[
+['zul.db.Datebox','zkau_82',{format:'dd.MM.yyyy',id:'dtf_doc_inf_creationdate',$$onChange:false,$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$onTimeZoneChange:false,$$0onTimeZoneChange:true,$onChanging:true,$$0onChanging:true,$$onError:false,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'200px',name:'dtf_doc_inf_creationdate',cols:11,lenient:false,position:'after_start',timeZone:'W-SU',localizedFormat:'\u0434\u0434.\u043C\u043C.\u0433\u0433\u0433\u0433',todayLinkLabel:'\u0421\u0435\u0433\u043E\u0434\u043D\u044F'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_83',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_84',{domExtraAttrs:{'_x':'0'
+,'_y':'2'
+},width:'180px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_85',{id:'lbl_doc_hi_fullname',domExtraAttrs:{'name':'lbl_doc_hi_fullname'
+},width:'180px',value:'\u0423\u0447\u0440\u0435\u0436\u0434\u0435\u043D\u0438\u0435'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_86',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;',colspan:3},{},[
+['zul.wgt.Div','zkau_87',{domExtraAttrs:{'_x':'1'
+,'_y':'2'
+},width:'654px',sclass:'panel-cell-div'},{},[
+['otr.AdvTextArea','zkau_88',{id:'ta_doc_hi_fullname',$$onChange:false,$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$onError:false,$$0onError:true,$onChanging:true,$$0onChanging:true,$onFocus:true,$$0onFocus:true,width:'654px',readonly:true,name:'ta_doc_hi_fullname',maxlength:2000,cols:30,multiline:true,rows:3},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_89',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_90',{domExtraAttrs:{'_x':'0'
+,'_y':'3'
+},width:'180px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_91',{id:'lbl_doc_spd_structsubdivision',domExtraAttrs:{'name':'lbl_doc_spd_structsubdivision'
+},width:'180px',value:'\u0421\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u043D\u043E\u0435 \u043F\u043E\u0434\u0440\u0430\u0437\u0434\u0435\u043B\u0435\u043D\u0438\u0435'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_92',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;',colspan:3},{},[
+['zul.wgt.Div','zkau_93',{domExtraAttrs:{'_x':'1'
+,'_y':'3'
+},width:'654px',sclass:'panel-cell-div'},{},[
+['otr.AdvTextArea','zkau_94',{id:'ta_doc_spd_structsubdivision',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onChanging:true,$$0onChanging:true,$onFocus:true,$$0onFocus:true,width:'654px',readonly:true,name:'ta_doc_spd_structsubdivision',maxlength:120,cols:30,multiline:true,rows:3},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_95',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_96',{domExtraAttrs:{'_x':'0'
+,'_y':'4'
+},width:'180px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_97',{id:'lbl_doc_hi_okpocode',domExtraAttrs:{'name':'lbl_doc_hi_okpocode'
+},width:'180px',value:'\u041E\u041A\u041F\u041E'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_98',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_99',{domExtraAttrs:{'_x':'1'
+,'_y':'4'
+},width:'200px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_100',{id:'tf_doc_hi_okpocode',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'200px',readonly:true,name:'tf_doc_hi_okpocode',maxlength:8,cols:8},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_101',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_102',{domExtraAttrs:{'_x':'2'
+,'_y':'4'
+},width:'250px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_103',{width:'250px'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_104',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_105',{domExtraAttrs:{'_x':'3'
+,'_y':'4'
+},width:'200px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_106',{width:'200px'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_107',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_108',{domExtraAttrs:{'_x':'0'
+,'_y':'5'
+},width:'180px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_109',{id:'lbl_doc_hi_inn',domExtraAttrs:{'name':'lbl_doc_hi_inn'
+},width:'180px',value:'\u0418\u041D\u041D'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_110',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_111',{domExtraAttrs:{'_x':'1'
+,'_y':'5'
+},width:'200px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_112',{id:'tf_doc_hi_inn',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'200px',readonly:true,name:'tf_doc_hi_inn',maxlength:12,cols:12},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_113',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_114',{domExtraAttrs:{'_x':'2'
+,'_y':'5'
+},width:'250px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_115',{width:'250px'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_116',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_117',{domExtraAttrs:{'_x':'3'
+,'_y':'5'
+},width:'200px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_118',{width:'200px'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_119',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_120',{domExtraAttrs:{'_x':'0'
+,'_y':'6'
+},width:'180px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_121',{id:'lbl_doc_hi_kpp',domExtraAttrs:{'name':'lbl_doc_hi_kpp'
+},width:'180px',value:'\u041A\u041F\u041F'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_122',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_123',{domExtraAttrs:{'_x':'1'
+,'_y':'6'
+},width:'200px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_124',{id:'tf_doc_hi_kpp',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'200px',readonly:true,name:'tf_doc_hi_kpp',maxlength:9,cols:9},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_125',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_126',{domExtraAttrs:{'_x':'2'
+,'_y':'6'
+},width:'250px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_127',{width:'250px'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_128',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_129',{domExtraAttrs:{'_x':'3'
+,'_y':'6'
+},width:'200px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_130',{width:'200px'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_131',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;',colspan:4},{},[
+['zul.wgt.Div','zkau_132',{domExtraAttrs:{'_x':'0'
+,'_y':'7'
+},width:'836px',sclass:'panel-cell-div'},{},[
+['zul.wgt.Div','zkau_133',{width:'836px',sclass:'panel'},{},[
+['zul.wgt.Groupbox','zkau_134',{$onAfterSize:true,$$0onAfterSize:true,$$onOpen:false,listeners:{onOpen:function(event){
+var open = this.isOpen();
+jq(this).find('.z-caption .z-div:first').each(function () {
+    if (open) {
+        $(this).removeClass('open-false').addClass('open-true')
+    } else {
+        $(this).removeClass('open-true').addClass('open-false')
+    }
+});
+}},hflex:'100',sclass:'titled-border',_nativebar:true},{},[
+['zul.wgt.Caption','zkau_135',{},{},[
+['zul.box.Hlayout','zkau_136',{},{},[
+['zul.wgt.Div','zkau_137',{sclass:'open-true',style:'visibility: visible;'},{},[]],
+['zul.wgt.Label','zkau_138',{style:'white-space: normal',value:'\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F \u043E \u043F\u0435\u0440\u0432\u0438\u0447\u043D\u043E\u043C \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0435'},{},[]]]]]],
+['zkmax.layout.Tablelayout','zkau_139',{sclass:'table-layout panel-layout-component',columns:4},{},[
+['zkmax.layout.Tablechildren','zkau_140',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_141',{domExtraAttrs:{'_x':'0'
+,'_y':'0'
+},width:'162px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_142',{id:'lbl_doc_spd_docnum',domExtraAttrs:{'name':'lbl_doc_spd_docnum'
+},width:'162px',value:'\u041D\u043E\u043C\u0435\u0440 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_143',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_144',{domExtraAttrs:{'_x':'1'
+,'_y':'0'
+},width:'200px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_145',{id:'tf_doc_spd_docnum',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'200px',readonly:true,name:'tf_doc_spd_docnum',maxlength:15,cols:15},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_146',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_147',{domExtraAttrs:{'_x':'2'
+,'_y':'0'
+},width:'250px',sclass:'panel-cell-div htar vm'},{},[
+['zul.wgt.Label','zkau_148',{id:'lbl_doc_ibd_creationdate',domExtraAttrs:{'name':'lbl_doc_ibd_creationdate'
+},width:'250px',value:'\u0414\u0430\u0442\u0430 \u0441\u043E\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u0438\u044F'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_149',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_150',{domExtraAttrs:{'_x':'3'
+,'_y':'0'
+},width:'200px',sclass:'panel-cell-div'},{},[
+['zul.db.Datebox','zkau_151',{format:'dd.MM.yyyy',id:'dtf_doc_ibd_creationdate',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onTimeZoneChange:true,$onChanging:true,$$0onChanging:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'200px',readonly:true,disabled:true,name:'dtf_doc_ibd_creationdate',cols:11,buttonVisible:false,lenient:false,position:'after_start',timeZone:'W-SU',localizedFormat:'\u0434\u0434.\u043C\u043C.\u0433\u0433\u0433\u0433',todayLinkLabel:'\u0421\u0435\u0433\u043E\u0434\u043D\u044F'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_152',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_153',{domExtraAttrs:{'_x':'0'
+,'_y':'1'
+},width:'162px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_154',{id:'lbl_doc_spd_docname',domExtraAttrs:{'name':'lbl_doc_spd_docname'
+},width:'162px',value:'\u041D\u0430\u0438\u043C\u0435\u043D\u043E\u0432\u0430\u043D\u0438\u0435 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_155',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_156',{domExtraAttrs:{'_x':'1'
+,'_y':'1'
+},width:'200px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_157',{id:'tf_doc_spd_docname',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'200px',readonly:true,name:'tf_doc_spd_docname',maxlength:250,cols:30},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_158',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_159',{domExtraAttrs:{'_x':'2'
+,'_y':'1'
+},width:'250px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_160',{width:'250px'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_161',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_162',{domExtraAttrs:{'_x':'3'
+,'_y':'1'
+},width:'200px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_163',{width:'200px'},{},[]]]]]]]]],'3d']]]]]]]]]]]]],
+['zul.tab.Tabpanel','zkau_164',{sclass:'tab-panel'},{},[
+['zul.wgt.Div','zkau_165',{sclass:'panel'},{},[
+['zkmax.layout.Tablelayout','zkau_166',{sclass:'table-layout panel-layout-component'},{},[
+['zkmax.layout.Tablechildren','zkau_167',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_168',{domExtraAttrs:{'_x':'0'
+,'_y':'0'
+},width:'950px',sclass:'panel-cell-div'},{},[]]]],
+['zkmax.layout.Tablechildren','zkau_169',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_170',{domExtraAttrs:{'_x':'0'
+,'_y':'1'
+},width:'950px',sclass:'panel-cell-div'},{},[
+['zul.wgt.Div','zkau_171',{id:'tbl_fs_sprr_list',z$is:true,width:'950px',sclass:'tbl_fs_sprr_list',tooltiptext:'\u0422\u0430\u0431\u043B\u0438\u0447\u043D\u0430\u044F \u0447\u0430\u0441\u0442\u044C \u0411\u0443\u0445\u0433\u0430\u043B\u0442\u0435\u0440\u0441\u043A\u043E\u0439 \u0441\u043F\u0440\u0430\u0432\u043A\u0438 \u0444. 0504833'},{},[
+['zul.layout.Borderlayout','zkau_172',{height:'205px'},{},[
+['zul.layout.Center','zkau_173',{$$onSlide:false,$$onSize:false,$$0onSize:true,$$onOpen:false,_nativebar:true},{},[
+['zul.sel.Listbox','zkau_174',{id:'.doclist-table.FS_SPRR_LIST',z$is:true,$onDoubleClick:true,$$onInnerWidth:false,$$0onInnerWidth:true,$onBlur:true,$$0onBlur:true,$$onRender:true,$$0onRender:true,$$onSelect:false,$onSelect:true,$onTopPad:false,$$0onTopPad:true,$$onPageSize:true,$$0onPageSize:true,$$onAcrossPage:true,$$0onAcrossPage:true,$$onCheckSelectAll:false,$onCheckSelectAll:true,$$0onCheckSelectAll:true,$$onScrollPos:false,$$0onScrollPos:true,$$onDataLoading:true,$onDataLoading:true,$$0onDataLoading:true,$$onAnchorPos:false,$$0onAnchorPos:true,$onFocus:true,$$0onFocus:true,vflex:'true',tooltiptext:'\u0422\u0430\u0431\u043B\u0438\u0447\u043D\u0430\u044F \u0447\u0430\u0441\u0442\u044C \u0411\u0443\u0445\u0433\u0430\u043B\u0442\u0435\u0440\u0441\u043A\u043E\u0439 \u0441\u043F\u0440\u0430\u0432\u043A\u0438 \u0444. 0504833',_nativebar:true,emptyMessage:'\u041D\u0435\u0442 \u044D\u043B\u0435\u043C\u0435\u043D\u0442\u043E\u0432',checkmark:true,multiple:true,model:true,$$selectAll:true,_topPad:0,_totalSize:0,_offset:0,_listbox$rod:true,_cdo:true,paginal:{$u:'zkau_183'}},{},[
+['zul.sel.Listhead','zkau_175',{$$onColSize:false,$onColSize:true,sizable:true},{},[
+['zul.sel.Listheader','zkau_176',{id:'nullColumn',$onRightClick:true,$onSort:true,$$0onSort:true,width:'45px',hflex:'min',sclass:'null-column'},{},[
+['zul.box.Box','zkau_177',{},{},[
+['zul.wgt.Image','zkau_178',{$onClick:true,sclass:'filterToggler',tooltiptext:'\u0412\u0438\u0434\u0438\u043C\u043E\u0441\u0442\u044C \u0444\u0438\u043B\u044C\u0442\u0440\u043E\u0432',src:'/zkau/web/30c5331e/img/spacer.gif'},{},[]]],'horizontal']]],
+['zul.sel.Listheader','zkau_179',{id:'OPERATIONNAME',$onDrop:true,$onRightClick:true,$onSort:true,$$0onSort:true,overrides:{doClick_:
+function (evt) {zAu.send(new zk.Event(this, 'onSuperPuperClick', {'': {sortDirection: this.getSortDirection(), ctrlKey: evt.ctrlKey, shiftKey: evt.shiftKey}}, {toServer:true}));}
+},width:'100px',tooltiptext:'\u041D\u0430\u0438\u043C\u0435\u043D\u043E\u0432\u0430\u043D\u0438\u0435 \u043E\u043F\u0435\u0440\u0430\u0446\u0438\u0438',draggable:'header',droppable:'header',label:'\u041D\u0430\u0438\u043C\u0435\u043D\u043E\u0432\u0430\u043D\u0438\u0435 \u043E\u043F\u0435\u0440\u0430\u0446\u0438\u0438',align:'CENTER',sortDescending:'fromServer',sortAscending:'fromServer'},{},[]]]],
+['zul.mesh.Auxhead','zkau_180',{},{},[
+['zul.mesh.Auxheader','zkau_181',{},{},[]]]],
+['zul.sel.Listfoot','zkau_182',{id:'aggregateTableFoot',visible:false,$onDoubleClick:true},{},[]],
+['zul.mesh.Paging','zkau_183',{$$onPaging:false,$onPaging:true,detailed:true,autohide:true},{},[]]],'paging']]],
+['zul.layout.North','zkau_184',{$$onSlide:false,$$onSize:false,$$0onSize:true,$$onOpen:false,_nativebar:true},{},[
+['zul.box.Box','zkau_185',{id:'.toolbar',z$is:true,zclass:'z-toolbar',context:'uuid(zkau_198)'},{},[
+['zul.box.Box','zkau_186',{hflex:'1',sclass:'toolbarLeftBox'},{},[
+['zul.wgt.Separator','zkau_187',{sclass:'toolbar-separator',orient:'vertical'},{},[]],
+['zul.wgt.Button','zkau_188',{id:'add',$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton add',tooltiptext:'\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043D\u043E\u0432\u0443\u044E \u0441\u0442\u0440\u043E\u043A\u0443',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/table_add.png',autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_189',{id:'copy',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton copy',tooltiptext:'\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u043A\u043E\u043F\u0438\u044E \u0441\u0442\u0440\u043E\u043A\u0438',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/table_copy.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_190',{id:'delete',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton delete',tooltiptext:'\u0423\u0434\u0430\u043B\u0438\u0442\u044C \u0441\u0442\u0440\u043E\u043A\u0443',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/table_delete.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_191',{id:'edit',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton edit',tooltiptext:'\u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0441\u0442\u0440\u043E\u043A\u0443 \u043D\u0430 \u0440\u0435\u0434\u0430\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/table_edit.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_192',{id:'setColumns',$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton setColumns',tooltiptext:'\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/table_setup.png',autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_193',{id:'find',$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton find',tooltiptext:'\u041D\u0430\u0439\u0442\u0438 \u0437\u0430\u043F\u0438\u0441\u044C',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/table_search.png',autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_194',{id:'applyFilter',$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton applyFilter',tooltiptext:'\u041F\u0440\u0438\u043C\u0435\u043D\u0438\u0442\u044C \u0444\u0438\u043B\u044C\u0442\u0440',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/funnel.png',autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_195',{id:'resetFilter',$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton resetFilter',tooltiptext:'\u0421\u0431\u0440\u043E\u0441\u0438\u0442\u044C \u0444\u0438\u043B\u044C\u0442\u0440',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/funnel_delete.png',autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_196',{id:'print',$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton print',tooltiptext:'\u041F\u0435\u0447\u0430\u0442\u044C',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/print.png',autodisable:'self'},{},[],'trendy']],'horizontal'],
+['zul.box.Box','zkau_197',{z$is:true,sclass:'toolbarRightBox',pack:'end'},{},[],'horizontal'],
+['zul.menu.Menupopup','zkau_198',{visible:false},{},[
+['zul.menu.Menuitem','zkau_199',{$onClick:true,label:'\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430'},{},[]]]]],'horizontal']]]]]]]]]]]]]]]]],
+['zul.tab.Tabpanel','zkau_200',{sclass:'tab-panel'},{},[
+['zul.wgt.Div','zkau_201',{sclass:'panel'},{},[
+['zkmax.layout.Tablelayout','zkau_202',{sclass:'table-layout panel-layout-component'},{},[
+['zkmax.layout.Tablechildren','zkau_203',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_204',{domExtraAttrs:{'_x':'0'
+,'_y':'0'
+},width:'941px',sclass:'panel-cell-div'},{},[
+['zul.wgt.Div','zkau_205',{width:'941px',sclass:'panel'},{},[
+['zkmax.layout.Tablelayout','zkau_206',{sclass:'table-layout panel-layout-component',columns:2},{},[
+['zkmax.layout.Tablechildren','zkau_207',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_208',{domExtraAttrs:{'_x':'0'
+,'_y':'0'
+},width:'250px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_209',{id:'lbl_doc_inf_guid',domExtraAttrs:{'name':'lbl_doc_inf_guid'
+},width:'250px',value:'\u0413\u043B\u043E\u0431\u0430\u043B\u044C\u043D\u044B\u0439 \u0443\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0439 \u0438\u0434\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0442\u043E\u0440'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_210',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_211',{domExtraAttrs:{'_x':'1'
+,'_y':'0'
+},width:'250px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_212',{id:'tf_doc_inf_guid',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'250px',readonly:true,name:'tf_doc_inf_guid',maxlength:36,cols:30},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_213',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_214',{domExtraAttrs:{'_x':'0'
+,'_y':'1'
+},width:'250px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_215',{id:'lbl_doc_ibd_guid',domExtraAttrs:{'name':'lbl_doc_ibd_guid'
+},width:'250px',value:'\u0413\u043B\u043E\u0431\u0430\u043B\u044C\u043D\u044B\u0439 \u0443\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0439 \u0438\u0434\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0442\u043E\u0440 \u043F\u0435\u0440\u0432\u0438\u0447\u043D\u043E\u0433\u043E \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_216',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_217',{domExtraAttrs:{'_x':'1'
+,'_y':'1'
+},width:'250px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_218',{id:'tf_doc_ibd_guid',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'250px',readonly:true,name:'tf_doc_ibd_guid',maxlength:36,cols:30},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_219',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_220',{domExtraAttrs:{'_x':'0'
+,'_y':'2'
+},width:'250px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_221',{id:'lbl_doc_si_registerinformaccguid',domExtraAttrs:{'name':'lbl_doc_si_registerinformaccguid'
+},width:'250px',value:'\u0413\u0423\u0418\u0414 \u041E\u043F\u0438\u0441\u0438'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_222',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_223',{domExtraAttrs:{'_x':'1'
+,'_y':'2'
+},width:'250px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_224',{id:'doc_si_registerinformaccguid',$onClick:true,domExtraAttrs:{'name':'doc_si_registerinformaccguid'
+},width:'250px',sclass:'document-link',style:'color:#0000ff;',value:'\u041F\u0423\u0421\u0422\u041E'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_225',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_226',{domExtraAttrs:{'_x':'0'
+,'_y':'3'
+},width:'250px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_227',{id:'lbl_doc_si_headidcode',domExtraAttrs:{'name':'lbl_doc_si_headidcode'
+},width:'250px',value:'\u0418\u0434\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0439 \u043A\u043E\u0434 \u0437\u0430\u0433\u043E\u043B\u043E\u0432\u043A\u0430 \u043E\u043F\u0438\u0441\u0438'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_228',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_229',{domExtraAttrs:{'_x':'1'
+,'_y':'3'
+},width:'250px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_230',{id:'tf_doc_si_headidcode',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'250px',readonly:true,name:'tf_doc_si_headidcode',maxlength:25,cols:25},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_231',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_232',{domExtraAttrs:{'_x':'0'
+,'_y':'4'
+},width:'250px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_233',{id:'lbl_doc_si_rowidcode',domExtraAttrs:{'name':'lbl_doc_si_rowidcode'
+},width:'250px',value:'\u0418\u0434\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0439 \u043A\u043E\u0434 \u0441\u0442\u0440\u043E\u043A\u0438 \u043E\u043F\u0438\u0441\u0438'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_234',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_235',{domExtraAttrs:{'_x':'1'
+,'_y':'4'
+},width:'250px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_236',{id:'tf_doc_si_rowidcode',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'250px',readonly:true,name:'tf_doc_si_rowidcode',maxlength:25,cols:25},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_237',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_238',{domExtraAttrs:{'_x':'0'
+,'_y':'5'
+},width:'250px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_239',{id:'lbl_doc_si_resultparam',domExtraAttrs:{'name':'lbl_doc_si_resultparam'
+},width:'250px',value:'\u0420\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0438'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_240',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_241',{domExtraAttrs:{'_x':'1'
+,'_y':'5'
+},width:'250px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_242',{id:'tf_doc_si_resultparam',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'250px',readonly:true,name:'tf_doc_si_resultparam',maxlength:2,cols:2},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_243',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_244',{domExtraAttrs:{'_x':'0'
+,'_y':'6'
+},width:'250px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_245',{id:'lbl_doc_si_textresultparam',domExtraAttrs:{'name':'lbl_doc_si_textresultparam'
+},width:'250px',value:'\u0422\u0435\u043A\u0441\u0442 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0438'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_246',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_247',{domExtraAttrs:{'_x':'1'
+,'_y':'6'
+},width:'250px',sclass:'panel-cell-div'},{},[
+['otr.AdvTextArea','zkau_248',{id:'ta_doc_si_textresultparam',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onChanging:true,$$0onChanging:true,$onFocus:true,$$0onFocus:true,width:'250px',readonly:true,name:'ta_doc_si_textresultparam',maxlength:4000,cols:30,multiline:true,rows:4},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_249',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_250',{domExtraAttrs:{'_x':'0'
+,'_y':'7'
+},width:'250px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_251',{id:'lbl_doc_si_accountnum',domExtraAttrs:{'name':'lbl_doc_si_accountnum'
+},width:'250px',value:'\u041D\u043E\u043C\u0435\u0440 \u043B\u0438\u0446\u0435\u0432\u043E\u0433\u043E \u0441\u0447\u0435\u0442\u0430'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_252',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_253',{domExtraAttrs:{'_x':'1'
+,'_y':'7'
+},width:'250px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_254',{id:'tf_doc_si_accountnum',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'250px',name:'tf_doc_si_accountnum',maxlength:11,cols:11},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_255',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_256',{domExtraAttrs:{'_x':'0'
+,'_y':'8'
+},width:'250px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_257',{id:'lbl_doc_si_executiondate',domExtraAttrs:{'name':'lbl_doc_si_executiondate'
+},width:'250px',value:'\u0414\u0430\u0442\u0430 \u0438\u0441\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_258',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_259',{domExtraAttrs:{'_x':'1'
+,'_y':'8'
+},width:'250px',sclass:'panel-cell-div'},{},[
+['zul.db.Datebox','zkau_260',{format:'dd.MM.yyyy',id:'dtf_doc_si_executiondate',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onTimeZoneChange:true,$onChanging:true,$$0onChanging:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'250px',readonly:true,disabled:true,name:'dtf_doc_si_executiondate',cols:11,buttonVisible:false,lenient:false,position:'after_start',timeZone:'W-SU',localizedFormat:'\u0434\u0434.\u043C\u043C.\u0433\u0433\u0433\u0433',todayLinkLabel:'\u0421\u0435\u0433\u043E\u0434\u043D\u044F'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_261',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_262',{domExtraAttrs:{'_x':'0'
+,'_y':'9'
+},width:'250px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_263',{id:'lbl_doc_si_rejectionreason',domExtraAttrs:{'name':'lbl_doc_si_rejectionreason'
+},width:'250px',value:'\u041F\u0440\u0438\u0447\u0438\u043D\u0430 \u043E\u0442\u043A\u0430\u0437\u0430'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_264',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_265',{domExtraAttrs:{'_x':'1'
+,'_y':'9'
+},width:'250px',sclass:'panel-cell-div'},{},[
+['otr.AdvTextArea','zkau_266',{id:'ta_doc_si_rejectionreason',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onChanging:true,$$0onChanging:true,$onFocus:true,$$0onFocus:true,width:'250px',readonly:true,name:'ta_doc_si_rejectionreason',maxlength:2000,cols:30,multiline:true,rows:3},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_267',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_268',{domExtraAttrs:{'_x':'0'
+,'_y':'10'
+},width:'250px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_269',{id:'lbl_doc_si_relevancesign',domExtraAttrs:{'name':'lbl_doc_si_relevancesign'
+},width:'250px',value:'\u041F\u0440\u0438\u0437\u043D\u0430\u043A \u0430\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u0438'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_270',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_271',{domExtraAttrs:{'_x':'1'
+,'_y':'10'
+},width:'250px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_272',{id:'tf_doc_si_relevancesign',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'250px',readonly:true,name:'tf_doc_si_relevancesign',maxlength:100,cols:30},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_273',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;',colspan:2},{},[
+['zul.wgt.Div','zkau_274',{domExtraAttrs:{'_x':'0'
+,'_y':'11'
+},width:'502px',sclass:'panel-cell-div'},{},[
+['zul.wgt.Div','zkau_275',{id:'FS_SI_TABSI_LIST',width:'502px',sclass:'FS_SI_TABSI_LIST iterator-view'},{},[
+['otr.IteratorListbox','zkau_276',{$$onInnerWidth:false,$$0onInnerWidth:true,$$onRender:true,$$0onRender:true,$$onSelect:false,$onSelect:true,$$onPageSize:true,$$0onPageSize:true,$$onAcrossPage:true,$$0onAcrossPage:true,$$onCheckSelectAll:false,$$0onCheckSelectAll:true,$$onScrollPos:false,$$0onScrollPos:true,$$onDataLoading:true,$$0onDataLoading:true,$$onAnchorPos:false,$$0onAnchorPos:true,zclass:'iterator',_nativebar:true,checkmark:true,multiple:true,model:true,$$selectAll:true,_topPad:0,_totalSize:0,_offset:0,nonselectableTags:'',_cdo:true},{},[
+['zul.mesh.Auxhead','zkau_277',{zclass:'iterator-auxhead'},{},[
+['zul.mesh.Auxheader','zkau_278',{sclass:'iteratorNullColumn',zclass:'iterator-auxheader'},{},[]],
+['zul.mesh.Auxheader','zkau_279',{sclass:'it_itr_fs_si_tabsi_list_0_fld htac vm',zclass:'iterator-auxheader'},{},[
+['zul.wgt.Label','zkau_280',{id:'lbl_accounttransguid',domExtraAttrs:{'name':'lbl_accounttransguid'
+},hflex:'100',style:'display:inherit;',value:'\u0413\u0423\u0418\u0414 \u041F\u0440\u043E\u0432\u043E\u0434\u043E\u043A \u043F\u043E \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0443'},{},[]]]],
+['zul.mesh.Auxheader','zkau_281',{sclass:'it_itr_fs_si_tabsi_list_1_fld htac vm',zclass:'iterator-auxheader'},{},[
+['zul.wgt.Label','zkau_282',{hflex:'100',style:'display:inherit;',value:'\u041D\u043E\u043C\u0435\u0440 \u043B\u0438\u0446\u0435\u0432\u043E\u0433\u043E \u0441\u0447\u0435\u0442\u0430'},{},[]]]]]],
+['zul.sel.Listhead','zkau_283',{zclass:'z-listhead-hidden'},{},[
+['zul.sel.Listheader','zkau_284',{$onSort:true,$$0onSort:true,width:'30px',sclass:'iteratorNullColumn',label:'0'},{},[]],
+['zul.sel.Listheader','zkau_285',{$onSort:true,$$0onSort:true,width:'270px',label:'1'},{},[]],
+['zul.sel.Listheader','zkau_286',{$onSort:true,$$0onSort:true,width:'200px',label:'2'},{},[]]]]]],
+['zul.wgt.Div','zkau_287',{z$is:true,zclass:'z-iteratorToolbar',context:'uuid(zkau_292)'},{},[
+['zul.box.Hlayout','zkau_288',{},{},[
+['zul.wgt.Button','zkau_289',{id:'add',$onClick:true,sclass:'toolbarButton toolbarButtonMain imageButton add',tooltiptext:'\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043D\u043E\u0432\u0443\u044E \u0441\u0442\u0440\u043E\u043A\u0443',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/16/table_add.png',autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_290',{id:'copy',$onClick:true,sclass:'toolbarButton toolbarButtonMain imageButton copy',tooltiptext:'\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u043A\u043E\u043F\u0438\u044E \u0441\u0442\u0440\u043E\u043A\u0438',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/16/table_copy.png',autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_291',{id:'delete',$onClick:true,sclass:'toolbarButton toolbarButtonMain imageButton delete',tooltiptext:'\u0423\u0434\u0430\u043B\u0438\u0442\u044C \u0441\u0442\u0440\u043E\u043A\u0443',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/16/table_delete.png',autodisable:'self'},{},[],'trendy']]],
+['zul.menu.Menupopup','zkau_292',{visible:false},{},[
+['zul.menu.Menuitem','zkau_293',{$onClick:true,label:'\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430'},{},[]]]]]],
+['zul.wgt.Div','zkau_294',{style:'min-height: 35px; height: 35px'},{},[]],
+['zul.utl.Script','zkau_295',{content:function(){
+addScrollEventListener(zk.Widget.$('$FS_SI_TABSI_LIST').uuid);
+}},{},[]],
+['zul.utl.Script','zkau_296',{content:function(){
+scrollPositionRestore(zk.Widget.$('$FS_SI_TABSI_LIST').uuid);
+}},{},[]],
+['zul.utl.Script','zkau_468',{content:function(){
+scrollPositionRestore(zk.Widget.$('$FS_SI_TABSI_LIST').uuid);
+}},{},[]]]]]]]]]]]]]]]]]]]]]],
+['zul.tab.Tabpanel','zkau_297',{sclass:'tab-panel'},{},[
+['zul.wgt.Div','zkau_298',{sclass:'panel'},{},[
+['zkmax.layout.Tablelayout','zkau_299',{sclass:'table-layout panel-layout-component'},{},[
+['zkmax.layout.Tablechildren','zkau_300',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_301',{domExtraAttrs:{'_x':'0'
+,'_y':'0'
+},width:'941px',sclass:'panel-cell-div'},{},[
+['zul.wgt.Div','zkau_302',{id:'attach',width:'941px',sclass:'attach-view'},{},[
+['zul.wgt.Div','zkau_303',{},{},[
+['zul.box.Box','zkau_304',{id:'.toolbar',z$is:true,height:'40px',zclass:'z-toolbar',context:'uuid(zkau_334)'},{},[
+['zul.box.Box','zkau_305',{hflex:'1',sclass:'toolbarLeftBox'},{},[
+['zul.box.Box','zkau_306',{id:'saveAttach',visible:false,domExtraAttrs:{'name':'saveAttach'
+},sclass:'multiButton',tooltiptext:'\u0421\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u0438\u0435'},{},[
+['zul.wgt.Button','zkau_307',{$onClick:true,sclass:'textImageButton toolbarButtonMain multiButtonMain',tooltiptext:'\u0421\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u0438\u0435',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/attach_saveas.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_308',{$onClick:true,sclass:'toolbarButtonArrow',zclass:'z-button',image:'/zkau/web/30c5331e/city/zul/img/grid/toolbar.buttonarrow.png'},{},[],'trendy']],'horizontal'],
+['zul.wgt.Button','zkau_309',{id:'lockAttach',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton lockAttach',tooltiptext:'\u0411\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/attach_block.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_310',{id:'unlockAttach',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton unlockAttach',tooltiptext:'\u0420\u0430\u0437\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/attach_unblock.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_311',{id:'viewAttach',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton viewAttach',tooltiptext:'\u041F\u0440\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/attach_view.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_312',{id:'printAttachWithStamp',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton printAttachWithStamp',tooltiptext:'\u041F\u0435\u0447\u0430\u0442\u044C \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430 \u0441\u043E \u0448\u0442\u0430\u043C\u043F\u043E\u043C \u042D\u041F',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/print_stamped_pdf.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_313',{id:'previewAttach',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton previewAttach',tooltiptext:'\u0411\u044B\u0441\u0442\u0440\u043E \u043F\u0440\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/attach_preview.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_314',{id:'propertiesAttach',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton propertiesAttach',tooltiptext:'\u041F\u0440\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044E \u043E \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0438',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/attach_info.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Separator','zkau_315',{sclass:'toolbar-separator',orient:'vertical'},{},[]],
+['zul.wgt.Button','zkau_316',{id:'addAttach',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton addAttach',tooltiptext:'\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0435',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/attach_add.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_317',{id:'scanDoc',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton scanDoc',tooltiptext:'\u0421\u0434\u0435\u043B\u0430\u0442\u044C \u0441\u043A\u0430\u043D\u043A\u043E\u043F\u0438\u044E \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430 \u0438 \u0434\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0432 \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/import1.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_318',{id:'addAttachLink',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton addAttachLink',tooltiptext:'\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u0441\u0432\u044F\u0437\u044C',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/attach_add_link.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_319',{id:'changeAttach',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton changeAttach',tooltiptext:'\u0417\u0430\u043C\u0435\u043D\u0438\u0442\u044C \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0435',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/attach_change.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_320',{id:'editAttach',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton editAttach',tooltiptext:'\u0420\u0435\u0434\u0430\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0435',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/attach_edit.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_321',{id:'deleteAttach',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton deleteAttach',tooltiptext:'\u0423\u0434\u0430\u043B\u0438\u0442\u044C \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0435',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/attach_delete.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Separator','zkau_322',{sclass:'toolbar-separator',orient:'vertical'},{},[]],
+['zul.box.Box','zkau_323',{id:'signAttach',visible:false,domExtraAttrs:{'name':'signAttach'
+},sclass:'multiButton',tooltiptext:'\u041F\u043E\u0434\u043F\u0438\u0441\u044C'},{},[
+['zul.wgt.Button','zkau_324',{$onClick:true,sclass:'textImageButton toolbarButtonMain multiButtonMain',tooltiptext:'\u041F\u043E\u0434\u043F\u0438\u0441\u044C',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/attach_sign.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_325',{$onClick:true,sclass:'toolbarButtonArrow',zclass:'z-button',image:'/zkau/web/30c5331e/city/zul/img/grid/toolbar.buttonarrow.png'},{},[],'trendy']],'horizontal'],
+['zul.wgt.Button','zkau_326',{id:'signCheckAttach',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton signCheckAttach',tooltiptext:'\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u043F\u043E\u0434\u043F\u0438\u0441\u044C',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/attach_sign_check.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.box.Box','zkau_327',{id:'signDeleteAttach',visible:false,domExtraAttrs:{'name':'signDeleteAttach'
+},sclass:'multiButton',tooltiptext:'\u0423\u0434\u0430\u043B\u0435\u043D\u0438\u0435 \u043F\u043E\u0434\u043F\u0438\u0441\u0438'},{},[
+['zul.wgt.Button','zkau_328',{$onClick:true,sclass:'textImageButton toolbarButtonMain multiButtonMain',tooltiptext:'\u0423\u0434\u0430\u043B\u0435\u043D\u0438\u0435 \u043F\u043E\u0434\u043F\u0438\u0441\u0438',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/attach_sign_delete.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Button','zkau_329',{$onClick:true,sclass:'toolbarButtonArrow',zclass:'z-button',image:'/zkau/web/30c5331e/city/zul/img/grid/toolbar.buttonarrow.png'},{},[],'trendy']],'horizontal'],
+['zul.wgt.Button','zkau_330',{id:'printAttach',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton printAttach',tooltiptext:'\u041D\u0430\u043F\u0435\u0447\u0430\u0442\u0430\u0442\u044C',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/print.png',disabled:true,autodisable:'self'},{},[],'trendy'],
+['zul.wgt.Separator','zkau_331',{sclass:'toolbar-separator',orient:'vertical'},{},[]],
+['zul.wgt.Button','zkau_332',{id:'viewVersions',visible:false,$onClick:true,sclass:'toolbarButton toolbarButtonMain largeButton viewVersions',tooltiptext:'\u041F\u0440\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0432\u0435\u0440\u0441\u0438\u0438 \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F',zclass:'z-button',image:'/zkau/web/30c5331e/city/icons/24/attach_versions.png',disabled:true,autodisable:'self'},{},[],'trendy']],'horizontal'],
+['zul.box.Box','zkau_333',{z$is:true,sclass:'toolbarRightBox',pack:'end'},{},[],'horizontal'],
+['zul.menu.Menupopup','zkau_334',{visible:false},{},[
+['zul.menu.Menuitem','zkau_335',{$onClick:true,label:'\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430'},{},[]]]]],'horizontal'],
+['zul.wgt.Div','zkau_336',{sclass:'table-wrapper'},{},[
+['zul.sel.Listbox','zkau_337',{id:'.table',z$is:true,$$0onInnerWidth:true,$$0onRender:true,$onSelect:true,$onTopPad:false,$$0onTopPad:true,$$0onPageSize:true,$$0onAcrossPage:true,$$0onCheckSelectAll:true,$$0onScrollPos:true,$onDataLoading:true,$$0onDataLoading:true,$$0onAnchorPos:true,vflex:'true',_nativebar:true,emptyMessage:'\u041D\u0435\u0442 \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439',checkmark:true,multiple:true,model:true,$$selectAll:true,_topPad:0,_totalSize:0,_offset:0,_listbox$rod:true,_cdo:true,paginal:{$u:'zkau_380'}},{},[
+['zul.sel.Listhead','zkau_338',{$onColSize:true,$onAfterSize:true,$$0onAfterSize:true,sizable:true},{},[
+['zul.sel.Listheader','zkau_339',{id:'nullColumn',$onRightClick:true,$onSort:true,$$0onSort:true,width:'45px',hflex:'min',sclass:'null-column'},{},[
+['zul.box.Box','zkau_340',{},{},[
+['zul.wgt.Image','zkau_341',{$onClick:true,sclass:'filterToggler',tooltiptext:'\u0412\u0438\u0434\u0438\u043C\u043E\u0441\u0442\u044C \u0444\u0438\u043B\u044C\u0442\u0440\u043E\u0432',src:'/zkau/web/30c5331e/city/icons/miscellaneous/filter_on.png'},{},[]]],'horizontal']]],
+['zul.sel.Listheader','zkau_342',{id:'guid',$onRightClick:true,$onSort:true,$$0onSort:true,width:'100px',style:'min-width: 100px; border-right: 1px solid #CCC;',tooltiptext:'GUID \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F',label:'GUID'},{},[]],
+['zul.sel.Listheader','zkau_343',{id:'businessType',$onRightClick:true,$onSort:true,$$0onSort:true,width:'100px',style:'min-width: 100px; border-right: 1px solid #CCC;',tooltiptext:'\u0422\u0438\u043F \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F',label:'\u0422\u0438\u043F \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F'},{},[]],
+['zul.sel.Listheader','zkau_344',{id:'fileName',$onRightClick:true,$onSort:true,$$0onSort:true,width:'100px',style:'min-width: 100px; border-right: 1px solid #CCC;',tooltiptext:'\u0418\u043C\u044F \u0444\u0430\u0439\u043B\u0430',label:'\u0424\u0430\u0439\u043B'},{},[]],
+['zul.sel.Listheader','zkau_345',{id:'fileDate',$onRightClick:true,$onSort:true,$$0onSort:true,width:'100px',style:'min-width: 100px; border-right: 1px solid #CCC;',tooltiptext:'\u0414\u0430\u0442\u0430/\u0432\u0440\u0435\u043C\u044F \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F',label:'\u0414\u0430\u0442\u0430 \u0444\u0430\u0439\u043B\u0430'},{},[]],
+['zul.sel.Listheader','zkau_346',{id:'prettyFileSize',$onRightClick:true,$onSort:true,$$0onSort:true,width:'100px',style:'min-width: 100px; border-right: 1px solid #CCC;',tooltiptext:'\u0420\u0430\u0437\u043C\u0435\u0440 \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F',label:'\u0420\u0430\u0437\u043C\u0435\u0440'},{},[]],
+['zul.sel.Listheader','zkau_347',{id:'comment',$onRightClick:true,$onSort:true,$$0onSort:true,width:'100px',style:'min-width: 100px; border-right: 1px solid #CCC;',tooltiptext:'\u041A\u043E\u043C\u043C\u0435\u043D\u0442\u0430\u0440\u0438\u0439 \u043A \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044E',label:'\u041A\u043E\u043C\u043C\u0435\u043D\u0442\u0430\u0440\u0438\u0439'},{},[]],
+['zul.sel.Listheader','zkau_348',{id:'annotation',$onRightClick:true,$onSort:true,$$0onSort:true,width:'100px',style:'min-width: 100px; border-right: 1px solid #CCC;',tooltiptext:'\u0410\u043D\u043D\u043E\u0442\u0430\u0446\u0438\u044F \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F',label:'\u0410\u043D\u043D\u043E\u0442\u0430\u0446\u0438\u044F'},{},[]],
+['zul.sel.Listheader','zkau_349',{id:'hasLinks',$onRightClick:true,$onSort:true,$$0onSort:true,width:'100px',style:'min-width: 100px; border-right: 1px solid #CCC;',tooltiptext:'\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D',label:'\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D'},{},[]],
+['zul.sel.Listheader','zkau_350',{id:'blockedInfo',$onRightClick:true,$onSort:true,$$0onSort:true,width:'100px',style:'min-width: 100px; border-right: 1px solid #CCC;',tooltiptext:'\u041A\u0435\u043C \u0437\u0430\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u043D\u043E \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0435',label:'\u0417\u0430\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u043D'},{},[]]]],
+['zul.mesh.Auxhead','zkau_351',{visible:false},{},[
+['zul.mesh.Auxheader','zkau_352',{},{},[]],
+['zul.mesh.Auxheader','zkau_353',{},{},[
+['zul.box.Box','zkau_354',{$onRightClick:true,hflex:'1'},{},[
+['zul.inp.Textbox','zkau_355',{$$1onChange:true,$onRightClick:true,$onOK:true,$$0onError:true,hflex:'1',tooltiptext:'\u0414\u043B\u044F \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u043D\u0435\u0441\u0442\u0440\u043E\u0433\u043E\u0433\u043E \u0443\u0441\u043B\u043E\u0432\u0438\u044F \u0444\u0438\u043B\u044C\u0442\u0440\u0430\u0446\u0438\u0438 \u0434\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0437\u043D\u0430\u043A % \u0438\u043B\u0438 * \u043F\u0435\u0440\u0435\u0434 \u0444\u0438\u043B\u044C\u0442\u0440\u043E\u043C (\u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440: %\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043D \u0438\u043B\u0438 \u0423\u0442\u0432\u0435\u0440\u0436\u0434%)'},{},[]]],'horizontal']]],
+['zul.mesh.Auxheader','zkau_356',{},{},[
+['zul.box.Box','zkau_357',{$onRightClick:true,hflex:'1'},{},[
+['zul.inp.Textbox','zkau_358',{$$1onChange:true,$onRightClick:true,$onOK:true,$$0onError:true,hflex:'1',tooltiptext:'\u0414\u043B\u044F \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u043D\u0435\u0441\u0442\u0440\u043E\u0433\u043E\u0433\u043E \u0443\u0441\u043B\u043E\u0432\u0438\u044F \u0444\u0438\u043B\u044C\u0442\u0440\u0430\u0446\u0438\u0438 \u0434\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0437\u043D\u0430\u043A % \u0438\u043B\u0438 * \u043F\u0435\u0440\u0435\u0434 \u0444\u0438\u043B\u044C\u0442\u0440\u043E\u043C (\u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440: %\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043D \u0438\u043B\u0438 \u0423\u0442\u0432\u0435\u0440\u0436\u0434%)'},{},[]]],'horizontal']]],
+['zul.mesh.Auxheader','zkau_359',{},{},[
+['zul.box.Box','zkau_360',{$onRightClick:true,hflex:'1'},{},[
+['zul.inp.Textbox','zkau_361',{$$1onChange:true,$onRightClick:true,$onOK:true,$$0onError:true,hflex:'1',tooltiptext:'\u0414\u043B\u044F \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u043D\u0435\u0441\u0442\u0440\u043E\u0433\u043E\u0433\u043E \u0443\u0441\u043B\u043E\u0432\u0438\u044F \u0444\u0438\u043B\u044C\u0442\u0440\u0430\u0446\u0438\u0438 \u0434\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0437\u043D\u0430\u043A % \u0438\u043B\u0438 * \u043F\u0435\u0440\u0435\u0434 \u0444\u0438\u043B\u044C\u0442\u0440\u043E\u043C (\u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440: %\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043D \u0438\u043B\u0438 \u0423\u0442\u0432\u0435\u0440\u0436\u0434%)'},{},[]]],'horizontal']]],
+['zul.mesh.Auxheader','zkau_362',{},{},[
+['zul.box.Box','zkau_363',{$onRightClick:true,hflex:'1'},{},[
+['zul.db.Datebox','zkau_364',{format:'dd.MM.yyyy',$$1onChange:true,$onRightClick:true,$onBlur:true,$$0onBlur:true,$$0onTimeZoneChange:true,$onOK:true,$$0onError:true,hflex:'1',cols:11,lenient:false,position:'after_start',timeZone:'W-SU',localizedFormat:'\u0434\u0434.\u043C\u043C.\u0433\u0433\u0433\u0433',todayLinkLabel:'\u0421\u0435\u0433\u043E\u0434\u043D\u044F'},{},[]]],'horizontal']]],
+['zul.mesh.Auxheader','zkau_365',{},{},[
+['zul.box.Box','zkau_366',{$onRightClick:true,hflex:'1'},{},[
+['zul.inp.Textbox','zkau_367',{$$1onChange:true,$onRightClick:true,$onOK:true,$$0onError:true,hflex:'1',tooltiptext:'\u0414\u043B\u044F \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u043D\u0435\u0441\u0442\u0440\u043E\u0433\u043E\u0433\u043E \u0443\u0441\u043B\u043E\u0432\u0438\u044F \u0444\u0438\u043B\u044C\u0442\u0440\u0430\u0446\u0438\u0438 \u0434\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0437\u043D\u0430\u043A % \u0438\u043B\u0438 * \u043F\u0435\u0440\u0435\u0434 \u0444\u0438\u043B\u044C\u0442\u0440\u043E\u043C (\u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440: %\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043D \u0438\u043B\u0438 \u0423\u0442\u0432\u0435\u0440\u0436\u0434%)'},{},[]]],'horizontal']]],
+['zul.mesh.Auxheader','zkau_368',{},{},[
+['zul.box.Box','zkau_369',{$onRightClick:true,hflex:'1'},{},[
+['zul.inp.Textbox','zkau_370',{$$1onChange:true,$onRightClick:true,$onOK:true,$$0onError:true,hflex:'1',tooltiptext:'\u0414\u043B\u044F \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u043D\u0435\u0441\u0442\u0440\u043E\u0433\u043E\u0433\u043E \u0443\u0441\u043B\u043E\u0432\u0438\u044F \u0444\u0438\u043B\u044C\u0442\u0440\u0430\u0446\u0438\u0438 \u0434\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0437\u043D\u0430\u043A % \u0438\u043B\u0438 * \u043F\u0435\u0440\u0435\u0434 \u0444\u0438\u043B\u044C\u0442\u0440\u043E\u043C (\u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440: %\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043D \u0438\u043B\u0438 \u0423\u0442\u0432\u0435\u0440\u0436\u0434%)'},{},[]]],'horizontal']]],
+['zul.mesh.Auxheader','zkau_371',{},{},[
+['zul.box.Box','zkau_372',{$onRightClick:true,hflex:'1'},{},[
+['zul.inp.Textbox','zkau_373',{$$1onChange:true,$onRightClick:true,$onOK:true,$$0onError:true,hflex:'1',tooltiptext:'\u0414\u043B\u044F \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u043D\u0435\u0441\u0442\u0440\u043E\u0433\u043E\u0433\u043E \u0443\u0441\u043B\u043E\u0432\u0438\u044F \u0444\u0438\u043B\u044C\u0442\u0440\u0430\u0446\u0438\u0438 \u0434\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0437\u043D\u0430\u043A % \u0438\u043B\u0438 * \u043F\u0435\u0440\u0435\u0434 \u0444\u0438\u043B\u044C\u0442\u0440\u043E\u043C (\u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440: %\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043D \u0438\u043B\u0438 \u0423\u0442\u0432\u0435\u0440\u0436\u0434%)'},{},[]]],'horizontal']]],
+['zul.mesh.Auxheader','zkau_374',{},{},[
+['zul.box.Box','zkau_375',{$onRightClick:true,hflex:'1'},{},[
+['zul.inp.Combobox','zkau_376',{$$onChange:false,$$1onChange:true,$onRightClick:true,$$onSelect:false,$$0onSelect:true,$onOK:true,$$onError:false,$$0onError:true,hflex:'1',tooltiptext:'\u0414\u043B\u044F \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u043D\u0435\u0441\u0442\u0440\u043E\u0433\u043E\u0433\u043E \u0443\u0441\u043B\u043E\u0432\u0438\u044F \u0444\u0438\u043B\u044C\u0442\u0440\u0430\u0446\u0438\u0438 \u0434\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0437\u043D\u0430\u043A % \u0438\u043B\u0438 * \u043F\u0435\u0440\u0435\u0434 \u0444\u0438\u043B\u044C\u0442\u0440\u043E\u043C (\u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440: %\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043D \u0438\u043B\u0438 \u0423\u0442\u0432\u0435\u0440\u0436\u0434%)',_value:' '},{},[
+['zul.inp.Comboitem','zkau_465',{label:' '},{},[]],
+['zul.inp.Comboitem','zkau_466',{label:'\u0414\u0430'},{},[]],
+['zul.inp.Comboitem','zkau_467',{label:'\u041D\u0435\u0442'},{},[]]]]],'horizontal']]],
+['zul.mesh.Auxheader','zkau_377',{},{},[
+['zul.box.Box','zkau_378',{$onRightClick:true,hflex:'1'},{},[
+['zul.inp.Textbox','zkau_379',{$$1onChange:true,$onRightClick:true,$onOK:true,$$0onError:true,hflex:'1',tooltiptext:'\u0414\u043B\u044F \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u043D\u0435\u0441\u0442\u0440\u043E\u0433\u043E\u0433\u043E \u0443\u0441\u043B\u043E\u0432\u0438\u044F \u0444\u0438\u043B\u044C\u0442\u0440\u0430\u0446\u0438\u0438 \u0434\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0437\u043D\u0430\u043A % \u0438\u043B\u0438 * \u043F\u0435\u0440\u0435\u0434 \u0444\u0438\u043B\u044C\u0442\u0440\u043E\u043C (\u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440: %\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043D \u0438\u043B\u0438 \u0423\u0442\u0432\u0435\u0440\u0436\u0434%)'},{},[]]],'horizontal']]]]],
+['zul.mesh.Paging','zkau_380',{$onPaging:true,detailed:true,autohide:true},{},[]]],'paging']]]]]]]]]]]]]]]]],
+['zul.tab.Tabpanel','zkau_381',{sclass:'tab-panel'},{},[
+['zul.wgt.Div','zkau_382',{sclass:'panel'},{},[
+['zkmax.layout.Tablelayout','zkau_383',{sclass:'table-layout panel-layout-component'},{},[
+['zkmax.layout.Tablechildren','zkau_384',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_385',{domExtraAttrs:{'_x':'0'
+,'_y':'0'
+},width:'955px',sclass:'panel-cell-div'},{},[
+['zul.wgt.Div','zkau_386',{width:'955px',sclass:'panel'},{},[
+['zkmax.layout.Tablelayout','zkau_387',{sclass:'table-layout panel-layout-component',columns:4},{},[
+['zkmax.layout.Tablechildren','zkau_388',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_389',{domExtraAttrs:{'_x':'0'
+,'_y':'0'
+},width:'200px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_390',{id:'lbl_doc_hd_position',domExtraAttrs:{'name':'lbl_doc_hd_position'
+},width:'200px',value:'\u0414\u043E\u043B\u0436\u043D\u043E\u0441\u0442\u044C \u0438\u0441\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044F \u041E\u0440\u0424\u041A'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_391',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_392',{domExtraAttrs:{'_x':'1'
+,'_y':'0'
+},width:'250px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_393',{id:'tf_doc_hd_position',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'250px',readonly:true,name:'tf_doc_hd_position',maxlength:100,cols:30},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_394',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_395',{domExtraAttrs:{'_x':'2'
+,'_y':'0'
+},width:'250px',sclass:'panel-cell-div htar vm'},{},[
+['zul.wgt.Label','zkau_396',{id:'lbl_doc_hd_fullname',domExtraAttrs:{'name':'lbl_doc_hd_fullname'
+},width:'250px',value:'\u0424\u0418\u041E \u0438\u0441\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044F \u041E\u0440\u0424\u041A'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_397',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_398',{domExtraAttrs:{'_x':'3'
+,'_y':'0'
+},width:'230px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_399',{id:'tf_doc_hd_fullname',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'230px',readonly:true,name:'tf_doc_hd_fullname',maxlength:50,cols:30},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_400',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_401',{domExtraAttrs:{'_x':'0'
+,'_y':'1'
+},width:'200px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_402',{id:'lbl_doc_re_position',domExtraAttrs:{'name':'lbl_doc_re_position'
+},width:'200px',value:'\u0414\u043E\u043B\u0436\u043D\u043E\u0441\u0442\u044C \u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0433\u043E \u0438\u0441\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044F \u041E\u0440\u0424\u041A'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_403',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_404',{domExtraAttrs:{'_x':'1'
+,'_y':'1'
+},width:'250px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_405',{id:'tf_doc_re_position',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'250px',readonly:true,name:'tf_doc_re_position',maxlength:100,cols:30},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_406',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_407',{domExtraAttrs:{'_x':'2'
+,'_y':'1'
+},width:'250px',sclass:'panel-cell-div htar vm'},{},[
+['zul.wgt.Label','zkau_408',{id:'lbl_doc_re_fullname',domExtraAttrs:{'name':'lbl_doc_re_fullname'
+},width:'250px',value:'\u0424\u0418\u041E \u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0433\u043E \u0438\u0441\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044F \u041E\u0440\u0424\u041A'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_409',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_410',{domExtraAttrs:{'_x':'3'
+,'_y':'1'
+},width:'230px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_411',{id:'tf_doc_re_fullname',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'230px',readonly:true,name:'tf_doc_re_fullname',maxlength:50,cols:30},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_412',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_413',{domExtraAttrs:{'_x':'0'
+,'_y':'2'
+},width:'200px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_414',{id:'lbl_doc_re_telephone',domExtraAttrs:{'name':'lbl_doc_re_telephone'
+},width:'200px',value:'\u0422\u0435\u043B\u0435\u0444\u043E\u043D \u0438\u0441\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044F \u041E\u0440\u0424\u041A'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_415',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_416',{domExtraAttrs:{'_x':'1'
+,'_y':'2'
+},width:'250px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_417',{id:'tf_doc_re_telephone',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'250px',readonly:true,name:'tf_doc_re_telephone',maxlength:50,cols:30},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_418',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_419',{domExtraAttrs:{'_x':'2'
+,'_y':'2'
+},width:'250px',sclass:'panel-cell-div htar vm'},{},[
+['zul.wgt.Label','zkau_420',{id:'lbl_doc_spd_creationdate',domExtraAttrs:{'name':'lbl_doc_spd_creationdate'
+},width:'250px',value:'\u0414\u0430\u0442\u0430 \u0444\u043E\u0440\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_421',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_422',{domExtraAttrs:{'_x':'3'
+,'_y':'2'
+},width:'230px',sclass:'panel-cell-div'},{},[
+['zul.db.Datebox','zkau_423',{format:'dd.MM.yyyy',id:'dtf_doc_spd_creationdate',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onTimeZoneChange:true,$onChanging:true,$$0onChanging:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'230px',readonly:true,disabled:true,name:'dtf_doc_spd_creationdate',cols:11,buttonVisible:false,lenient:false,position:'after_start',timeZone:'W-SU',localizedFormat:'\u0434\u0434.\u043C\u043C.\u0433\u0433\u0433\u0433',todayLinkLabel:'\u0421\u0435\u0433\u043E\u0434\u043D\u044F'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_424',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_425',{domExtraAttrs:{'_x':'0'
+,'_y':'3'
+},width:'200px',sclass:'panel-cell-div vm'},{},[
+['zul.wgt.Label','zkau_426',{id:'lbl_doc_spd_namereg',domExtraAttrs:{'name':'lbl_doc_spd_namereg'
+},width:'200px',value:'\u041D\u0430\u0438\u043C\u0435\u043D\u043E\u0432\u0430\u043D\u0438\u0435 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430, \u043D\u043E\u043C\u0435\u0440, \u0437\u0430 \u043F\u0435\u0440\u0438\u043E\u0434'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_427',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_428',{domExtraAttrs:{'_x':'1'
+,'_y':'3'
+},width:'250px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_429',{id:'tf_doc_spd_namereg',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'250px',readonly:true,name:'tf_doc_spd_namereg',maxlength:120,cols:30},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_430',{sclass:'panel-cell vm',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_431',{domExtraAttrs:{'_x':'2'
+,'_y':'3'
+},width:'250px',sclass:'panel-cell-div htar vm'},{},[
+['zul.wgt.Label','zkau_432',{id:'lbl_doc_spd_fiobuh',domExtraAttrs:{'name':'lbl_doc_spd_fiobuh'
+},width:'250px',value:'\u0424\u0418\u041E \u0433\u043B\u0430\u0432\u043D\u043E\u0433\u043E \u0431\u0443\u0445\u0433\u0430\u043B\u0442\u0435\u0440\u0430 (\u0440\u0443\u043A\u043E\u0432\u043E\u0434\u0438\u0442\u0435\u043B\u044F \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u043D\u043E\u0433\u043E \u043F\u043E\u0434\u0440\u0430\u0437\u0434\u0435\u043B\u0435\u043D\u0438\u044F)'},{},[]]]]]],
+['zkmax.layout.Tablechildren','zkau_433',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_434',{domExtraAttrs:{'_x':'3'
+,'_y':'3'
+},width:'230px',sclass:'panel-cell-div'},{},[
+['zul.inp.Textbox','zkau_435',{id:'tf_doc_spd_fiobuh',$onChange:true,$$1onChange:true,$onBlur:true,$$0onBlur:true,$$0onError:true,$onFocus:true,$$0onFocus:true,width:'230px',readonly:true,name:'tf_doc_spd_fiobuh',maxlength:50,cols:30},{},[]]]]]]]]]]]]]]]]]]]]]]]]]]]],
+['zkmax.layout.Tablechildren','zkau_436',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_437',{domExtraAttrs:{'_x':'0'
+,'_y':'1'
+},width:'1050px',height:'250px',sclass:'panel-cell-div'},{},[
+['zul.wgt.Div','zkau_438',{width:'1050px',height:'250px',sclass:'panel'},{},[
+['zkmax.layout.Tablelayout','zkau_439',{sclass:'table-layout panel-layout-component'},{},[
+['zkmax.layout.Tablechildren','zkau_440',{sclass:'panel-cell',style:'padding-left:1px;padding-top:1px;'},{},[
+['zul.wgt.Div','zkau_441',{domExtraAttrs:{'_x':'0'
+,'_y':'0'
+},width:'1028px',sclass:'panel-cell-div'},{},[
+['zul.wgt.Div','zkau_442',{id:'tbl_accstatement_2',z$is:true,width:'1028px',height:'300px',sclass:'tbl_accstatement_2'},{},[
+['zul.layout.Borderlayout','zkau_443',{height:'296px'},{},[
+['zul.layout.Center','zkau_444',{$$0onSize:true,_nativebar:true},{},[
+['otr.ListboxFakePaging','zkau_445',{id:'.datasource-table',z$is:true,$onDoubleClick:true,$$onInnerWidth:false,$$0onInnerWidth:true,$onBlur:true,$$0onBlur:true,$$onRender:true,$$0onRender:true,$$onSelect:false,$onSelect:true,$$onPageSize:true,$$0onPageSize:true,$$onAcrossPage:true,$$0onAcrossPage:true,$$onCheckSelectAll:false,$onCheckSelectAll:true,$$0onCheckSelectAll:true,$$onScrollPos:false,$$0onScrollPos:true,$$onDataLoading:true,$$0onDataLoading:true,$$onAnchorPos:false,$$0onAnchorPos:true,$onFocus:true,$$0onFocus:true,vflex:'1',_nativebar:true,emptyMessage:'\u041D\u0435\u0442 \u0434\u0430\u043D\u043D\u044B\u0445 \u0434\u043B\u044F \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F',_topPad:0,_totalSize:0,_offset:0,_cdo:true,focusListener:false},{},[
+['zul.sel.Listhead','zkau_446',{$onColSize:true,sizable:true},{},[]],
+['zul.mesh.Auxhead','zkau_447',{},{},[]]]]]],
+['zul.layout.South','zkau_448',{$$onSlide:false,$$onSize:false,$$0onSize:true,$$onOpen:false,_nativebar:true},{},[
+['zul.box.Box','zkau_449',{hflex:'1',align:'center'},{},[
+['zul.box.Box','zkau_450',{hflex:'1',align:'center'},{},[
+['zul.box.Box','zkau_451',{},{},[],'horizontal']],'horizontal'],
+['zul.box.Box','zkau_452',{align:'end',pack:'center'},{},[
+['zul.box.Hlayout','zkau_453',{width:'100%',sclass:'fake-panel'},{},[
+['zul.wgt.Div','zkau_454',{sclass:'z-paging-button z-paging-button-disabled'},{},[
+['zul.wgt.Button','zkau_455',{$onClick:true,zclass:'z-paging-first',disabled:true},{},[],'trendy']]],
+['zul.wgt.Div','zkau_456',{sclass:'z-paging-button z-paging-button-disabled'},{},[
+['zul.wgt.Button','zkau_457',{$onClick:true,zclass:'z-paging-prev',disabled:true},{},[],'trendy']]],
+['zul.inp.Intbox','zkau_458',{$$onChange:false,$onChange:true,$$1onChange:true,$$onError:false,$$0onError:true,zclass:'z-paging-input',cols:11},{},[]],
+['zul.wgt.Label','zkau_459',{sclass:'paging-total-number',value:'/'},{},[]],
+['zul.wgt.Label','zkau_460',{sclass:'paging-total-number'},{},[]],
+['zul.wgt.Div','zkau_461',{sclass:'z-paging-button z-paging-button-disabled'},{},[
+['zul.wgt.Button','zkau_462',{$onClick:true,zclass:'z-paging-next',disabled:true},{},[],'trendy']]],
+['zul.wgt.Div','zkau_463',{sclass:'z-paging-button z-paging-button-disabled'},{},[
+['zul.wgt.Button','zkau_464',{$onClick:true,zclass:'z-paging-last',disabled:true},{},[],'trendy']]]]]],'horizontal']],'horizontal']]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]],9,
+['resizeWgt','[{$u:\'zkau_43\'}]',
+'script','["zk.load(\'zkex.cmsp\');zk.afterLoad(\'zkex.cmsp\', function(){zkmax.cmsp.start(\'Desktop_257\',true, -1, -1, -1);});"]',
+'resizeWgt','[{$u:\'zkau_276\'}]']);
+
+			function closeWin() {
+			window.close();
+			}
+
+			function modalWin(url, name, winId) {
+			var windowObj = window.open(url,
+			// winId,'top=200,left=200,height=600,width=800,toolbar=no,directories=no,status=no,scrollbars=yes,resizable=yes,modal=false');
+			winId, 'toolbar=no,directories=no,status=no,scrollbars=yes,resizable=yes,modal=false');
+			windowObj.focus();
+			return false;
+			}
+		
+
+			(function () {
+				jq(document.body).on("mouseover", "input, textarea, a.z-datebox-button", function () {
+					var wgt = zk.Widget.$(jq(this));
+					if (wgt) {
+						if ("getText" in wgt) {
+							if (!wgt.getTooltiptext()) {
+								//в случае, если не задан тултип из дескриптора, то в тултипе выводим значение поля
+								//добавляем атрибут overrideTooltip, что бы отличить значение из дескриптора от значения, выставленного данным скриптом
+								wgt.setTooltiptext(wgt.getText());
+								jq(wgt)[0].setAttribute("overrideTooltip", true);
+							} else {
+								if (jq(wgt)[0].getAttribute("overrideTooltip") != null && wgt.getTooltiptext() != wgt.getText()) {
+									wgt.setTooltiptext(wgt.getText());
+								}
+							}
+						}
+					}
+				});
+			})();
+			
+		
+
+			function getGroupboxes() {
+				var tabpanels = jq(".dialog-edit @tabbox @tabpanels @tabpanel");
+				if (tabpanels.length == 0) {
+					return jq(".dialog-edit @groupbox");
+				}
+				for (var i = 0; i < tabpanels.length; i++) {
+					if(tabpanels[i].style.display == "none"){
+						continue;
+					}
+					return $(tabpanels[i]).find(".z-groupbox");
+				}
+			}
+
+			function updateButtonsState(groupboxes, expandAllBtn, collapseAllBtn) {
+				var expandAllDisabled = true;
+				var collapseAllDisabled = true;
+				for (var i = 0; i < groupboxes.length; i++) {
+					var groupboxWidget = zk.Widget.$(groupboxes[i]);
+					if (!groupboxWidget.isOpen()) {
+						expandAllDisabled = false;
+						break;
+					}
+				}
+				for (var j = 0; j < groupboxes.length; j++) {
+					var groupboxWidget = zk.Widget.$(groupboxes[j]);
+					if (groupboxWidget.isOpen()) {
+						collapseAllDisabled = false;
+						break;
+					}
+				}
+				expandAllBtn.setDisabled(expandAllDisabled);
+				collapseAllBtn.setDisabled(collapseAllDisabled);
+			}
+
+			function addOnOpenListener(groupboxes, expandAllBtn, collapseAllBtn) {
+				for (var i = 0; i < groupboxes.length; i++) {
+					if(groupboxes[i].hasAttribute("hasGroupboxOpenListener") == true){
+						return;
+					}
+					var widget = zk.Widget.$(groupboxes[i]);
+					widget.listen({
+						onOpen: function (evt) {
+							updateButtonsState(groupboxes, expandAllBtn, collapseAllBtn);
+							widget.fixCollapsedWidth();
+						}
+					});
+					groupboxes[i].setAttribute("hasGroupboxOpenListener", "true");
+				}
+			}
+
+			function updateButtons(expandAllBtn, collapseAllBtn){
+				var groupboxes = getGroupboxes();
+				if (groupboxes.length == 0) {
+					return;
+				}
+				updateButtonsState(groupboxes, expandAllBtn, collapseAllBtn);
+				addOnOpenListener(groupboxes, expandAllBtn, collapseAllBtn);
+			}
+
+			function fixCollapsedWidths() {
+				var groupboxes = getGroupboxes();
+				if (groupboxes.length == 0) {
+					return;
+				}
+				for (var i = 0; i < groupboxes.length; i++) {
+					zk.Widget.$(groupboxes[i]).fixCollapsedWidth();
+				}
+			}
+			
+		
+
+</script>
+<noscript>
+<div class="noscript"><p>Sorry, JavaScript must be enabled.<br/>Change your browser options, then <a href="">try again</a>.</p></div>
+</noscript>
+
+</body>
+</html>

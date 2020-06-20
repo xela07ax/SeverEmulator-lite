@@ -1,0 +1,48 @@
+.z-listitem.z-listitem-selected .z-listcell.redBackground {
+	background-color: #f96a6a;
+}
+
+.z-listitem .z-listcell.redBackground {
+	background-color: #f96a6a;
+}
+
+/*EXP-48319 Изменение стиля для компонент дата-время*/
+.a-datebox-without-button .z-datebox-button {
+	display: none;
+}
+
+/*EXP-49283 Подсветка строк в формуляре просмотра состояния лс*/
+
+.a-RowItSelect1 .iterator-body .z-listitem-selected z-decimalbox[readonly] {
+	background-color:#12529c;
+}
+
+.a-RowItSelect2 .iterator-body .z-listitem-selected .z-intbox[readonly] {
+	background-color:#12529c;
+}
+
+.a-RowItSelect3 .iterator-body .z-listitem-selected  .z-longbox[readonly] {
+	background-color:#12529c;
+}
+
+.a-RowItSelect4 .iterator-body .z-listitem-selected .z-advdecimalfield[readonly] {
+	background-color:#12529c;
+}
+
+.a-RowItSelect5 .iterator-body .z-listitem-selected .z-textbox[readonly] {
+	background-color:#12529c;
+}
+
+.a-RowItSelect6 .iterator-body .z-listitem-selected .z-doublebox[readonly] {
+	background-color:#12529c;
+}
+
+.a-RowItSelect7 .iterator-body .z-listitem-selected .z-maskinput[readonly] {
+	background-color:#12529c;
+}
+
+
+/*EXP-48843 ДБД. Метод применения стиля вкладки таб-панели по условию*/
+.greyBackground {
+    background-color:#c9cbca;
+}

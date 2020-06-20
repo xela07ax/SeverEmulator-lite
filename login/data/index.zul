@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Веб-клиент</title>
+
+<script type="text/javascript" src="/sufdclient/zkau/web/30dff7d3/js/zk.wpd" charset="UTF-8"></script>
+<script type="text/javascript" src="/sufdclient/zkau/web/30dff7d3/js/zul.lang.wpd" charset="UTF-8"></script>
+<script type="text/javascript" src="/sufdclient/zkau/web/30dff7d3/js/zkbind.wpd" charset="UTF-8"></script>
+<script type="text/javascript" src="/sufdclient/zkau/web/30dff7d3/js/zssex.wpd" charset="UTF-8"></script>
+<script type="text/javascript" src="/sufdclient/zkau/web/30dff7d3/js/otr.wpd" charset="UTF-8"></script>
+<script type="text/javascript" src="/sufdclient/versioned/8.21.693.11.hotfix/js/selDrag.js" charset="UTF-8"></script>
+<!-- ZK 8.5.2.1 EE 2018082816 -->
+
+<link rel="stylesheet" type="text/css" href="/sufdclient/zkau/web/30dff7d3/_zkiju-city/zul/css/zk.wcs"/>
+<link rel="stylesheet" type="text/css" href="/sufdclient/zkau/web/30dff7d3/css/default.css.dsp"/>
+<link rel="stylesheet" type="text/css" href="/sufdclient/zkau/web/30dff7d3/css/jquery.gritter.css.dsp"/>
+<link rel="stylesheet" type="text/css" href="/sufdclient/zkau/web/30dff7d3/css/Actionbar.city.css.dsp"/>
+<link rel="stylesheet" type="text/css" href="/sufdclient/static/resources/forms/global/applied.css"/>
+<link rel="stylesheet" type="text/css" href="/sufdclient/zkau/web/30dff7d3/city/override.city.css.dsp"/>
+<script type="text/javascript">
+zk.useStackup = true;
+</script>
+</head>
+<body>
+<div id="wKVD_" class="z-temp"><div id="zk_proc" class="z-loading"><div class="z-loading-indicator"><span class="z-loading-icon"></span>Обработка запроса...</div></div></div>
+<script id="wKVDa" type="text/javascript" src="/sufdclient/versioned/1.9.3/libraries-js.dsp">
+</script>
+
+<script id="wKVDb" type="text/javascript" src="/sufdclient/versioned/8.21.693.11.hotfix/zk-full-js.dsp">
+</script>
+
+<script id="wKVD7" type="text/javascript" src="/sufdclient/versioned/8.21.693.11.hotfix/cryptopro-full.dsp">
+</script>
+
+<script class="z-runonce" type="text/javascript">
+zk.appName='УФОС';zk.themeName='city';zkmx(
+[0,'wKVD_',{dt:'z_uz40',cu:'\x2Fsufdclient',uu:'\x2Fsufdclient\x2Fzkau',ru:'\x2Findex.zul',style:'height\x3A100\x25'},{},[
+['zul.wnd.Window','wKVD0',{id:'welcome',$$onMaximize:false,$$0onMaximize:true,$$onZIndex:false,$$0onZIndex:true,$$onMove:false,$$0onMove:true,$onClose:true,$$onSize:false,$$0onSize:true,$$onMinimize:false,$$0onMinimize:true,$$onOpen:false,style:'width:0px; height:0px',prolog:' ',position:'center',_nativebar:true},{},[
+['zul.wnd.Window','wKVD9',{id:'login',$onCancel:true,$$0onMaximize:true,$$0onZIndex:true,$$0onMove:true,$onClose:true,$$0onSize:true,$$0onMinimize:true,width:'260px',sclass:'loginWindow',prolog:' ',title:'\u0412\u0435\u0431-\u043A\u043B\u0438\u0435\u043D\u0442: \u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F',position:'center',border:'normal',mode:'modal',_nativebar:true},{},[
+['zul.wgt.Caption','wKVDd',{image:'/sufdclient/images/icons/32/id_card.png'},{},[]],
+['zul.utl.Script','wKVDa',{},{},[]],
+['zul.utl.Script','wKVDb',{},{},[]],
+['zul.utl.Script','wKVDc',{},{},[]],
+['zul.box.Box','wKVDe',{id:'loginvbox'},{},[
+['zhtml.Widget','mainForm',{id:'mainForm',prolog:'<form id=\"mainForm\" autocomplete=\"off\" onsubmit=\"return trySet();\" target=\"fake\">',epilog:'<\/form>'},{},[
+['zhtml.Text','wKVDg',{value:'\n\n\t\t\t\t',idRequired:true},{},[]],
+['zul.wgt.Label','wKVDh',{value:'\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0438\u043C\u044F \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044F \u0438 \u043F\u0430\u0440\u043E\u043B\u044C'},{},[]],
+['zhtml.Text','wKVDi',{value:'\n\t\t\t\t',idRequired:true},{},[]],
+['zhtml.Widget','wKVDj',{prolog:'<br id=\"wKVDj\"/>'},{},[]],
+['zhtml.Text','wKVDk',{value:'\n\t\t\t\t',idRequired:true},{},[]],
+['zul.wgt.Label','wKVDl',{id:'error',visible:false,style:'color: red;',value:'\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E\u0435 \u0438\u043C\u044F \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044F \u0438\u043B\u0438 \u043F\u0430\u0440\u043E\u043B\u044C'},{},[]],
+['zhtml.Text','wKVDm',{value:'\n\n\t\t\t\t',idRequired:true},{},[]],
+['zul.box.Box','wKVDn',{style:'margin-top: 5px',_sizes:['100px'],align:'end'},{},[
+['zul.wgt.Label','wKVDo',{value:'\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C'},{},[]],
+['zhtml.Input','user',{id:'user',prolog:'<input id=\"user\" value=\"\" type=\"text\" class=\"z-textbox\" autocomplete=\"on\"/>'},{},[]]],'horizontal'],
+['zhtml.Text','wKVDq',{value:'\n\t\t\t\t',idRequired:true},{},[]],
+['zul.box.Box','wKVDr',{style:'margin-top: 5px',_sizes:['100px'],align:'end'},{},[
+['zul.wgt.Label','wKVDs',{value:'\u041F\u0430\u0440\u043E\u043B\u044C'},{},[]],
+['zhtml.Input','psw',{id:'psw',prolog:'<input id=\"psw\" value=\"\" type=\"password\" class=\"z-textbox\"/>'},{},[]]],'horizontal'],
+['zhtml.Text','wKVDu',{value:'\n\t\t\t\t',idRequired:true},{},[]],
+['zul.box.Hlayout','wKVDv',{id:'linkBox',visible:false,width:'100%',style:'margin-top: 10px'},{},[
+['zul.wgt.A','wKVDw',{id:'manualLink',visible:false,label:'\u0421\u0441\u044B\u043B\u043A\u0430 \u043D\u0430 \u0438\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u044E',href:'#'},{},[]]]],
+['zhtml.Text','wKVDx',{value:'\n\t\t\t\t',idRequired:true},{},[]],
+['zul.wgt.Toolbar','wKVDy',{align:'end'},{},[
+['zhtml.Input','okButton',{id:'okButton',prolog:'<input id=\"okButton\" value=\"OK\" type=\"submit\" height=\"24px\" width=\"75px\"/>'},{},[]],
+['zhtml.Input','cancelButton',{id:'cancelButton',$onClick:true,prolog:'<input id=\"cancelButton\" value=\"\u041E\u0447\u0438\u0441\u0442\u0438\u0442\u044C\" type=\"reset\" height=\"24px\" width=\"75px\"/>'},{},[]]],'panel'],
+['zhtml.Text','wKVD00',{value:'\n\t\t\t',idRequired:true},{},[]]]],
+['zhtml.Widget','fake',{id:'fake',visible:false,prolog:'<iframe id=\"fake\" name=\"fake\" src=\"javascript:false\" style=\"display: none;\" tabindex=\"-1\">',epilog:'<\/iframe>'},{},[]]],'vertical']]]]],
+['zul.wgt.Include','wKVD1',{id:'checkJinnWindow',prolog:' ',enclosingTag:'div'},{},[
+['zul.wnd.Window','wKVD2',{id:'checkJinn',$$0onMaximize:true,$$0onZIndex:true,$$0onMove:true,$onClose:true,$$0onSize:true,$$0onMinimize:true,style:'width:0px; height:0px',position:'center',_nativebar:true},{},[
+['zul.utl.Script','wKVD3',{id:'checkJinnScript'},{},[]]]]]],
+['zul.wgt.Include','wKVD4',{id:'cryptoProPluginWindow',prolog:' ',enclosingTag:'div'},{},[
+['zul.wnd.Window','wKVD5',{id:'cryptoProPlugin',$$0onMaximize:true,$$0onZIndex:true,$$0onMove:true,$onClose:true,$$0onSize:true,$$0onMinimize:true,style:'width:0px; height:0px; padding:0px;',title:'\u041A\u0440\u0438\u043F\u0442\u043E\u041F\u0440\u043E Browser Plug-in',position:'center',_nativebar:true},{},[
+['zul.utl.Script','wKVD6',{},{},[]],
+['zul.utl.Script','wKVD7',{},{},[]],
+['zul.utl.Script','wKVD8',{id:'saveSertScript'},{},[]]]]]]]],9,
+['script','["isJinnInstall()"]',
+'script','["isCryptoProPluginInstall();"]']);
+
+			function trySet() {
+				// Требуется передавать на сервер значения полей
+				zAu.send(new zk.Event(zk.Widget.$('$login'), "onOkButton", {user: document.getElementById('user').value, psw: document.getElementById('psw').value }, {toServer: true}));
+			return false;
+			}
+
+			function setFocusForPassword() {
+				// Установить фокус на  xhtml компоненте  psw
+				document.getElementById('psw').select();
+				document.getElementById('psw').focus();
+			}
+		
+
+			function isJinnInstall() {
+				var jinn = new JinnSignExtensionProvider();
+				var cryptoContextXML = jinn.CreateXmlCryptoContext();
+				cryptoContextXML.GetPromise().then(function (response) {
+					cryptoContextXML.Close();
+					zAu.send(new zk.Event(zk.Widget.$(jq('$checkJinn')), 'onUser', true));
+				}, function (err) {
+					zAu.send(new zk.Event(zk.Widget.$(jq('$checkJinn')), 'onUser', false));
+				});
+			}
+		
+ if (!window.console) console = {log: function() {}, error: function() {}}; 
+
+			function exit() {
+				zAu.send(new zk.Event(zk.Widget.$(jq('$cryptoProPlugin')),'onClose'));
+			}
+			function sendRequest(request) {
+				zAu.send(new zk.Event(zk.Widget.$(jq('$cryptoProPlugin')), 'onUser', {command: 'onSuccessReqGen', base64Data:request}));
+			}
+			function returnErrorFromPlugin(message) {
+				zAu.send(new zk.Event(zk.Widget.$(jq('$cryptoProPlugin')), 'onUser', {command: 'onErrorReqGen', error: message}))
+			}
+			function sendCertInstallSuccess(containerFullName) {
+				zAu.send(new zk.Event(zk.Widget.$(jq('$cryptoProPlugin')), 'onUser', {command: 'onSuccessCertInstall', name: containerFullName}));
+			}
+			function returnCertInstallError(message) {
+				zAu.send(new zk.Event(zk.Widget.$(jq('$cryptoProPlugin')), 'onUser', {command: 'onErrorCertInstall', error: message}))
+			}
+			function receivePrintForm(rtf) {
+				var applet = document.applets[0];
+				applet.onReadyPrintForm(rtf);
+			}
+			function closeWin(){
+				window.close();
+			}
+		
+
+</script>
+<noscript>
+<div class="noscript"><p>Sorry, JavaScript must be enabled.<br/>Change your browser options, then <a href="">try again</a>.</p></div>
+</noscript>
+
+</body>
+</html>
